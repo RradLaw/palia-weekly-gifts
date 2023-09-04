@@ -1,0 +1,21 @@
+{
+    "Ashura": {
+        "gift1": {
+            "name": "Sweet Leaf",
+            "type": "Gatherables"
+        },
+        "gift2": {
+            "name": "Juniper Seed",
+            "type": "Gatherables"
+        },
+        "gift3": {
+            "name": "Fish Stew",
+            "type": "Dishes"
+        },
+        "gift4": {
+            "name": "Chapaa Masala",
+            "type": "Dishes"
+        }
+    },
+    "expiry": 1694404800
+}
