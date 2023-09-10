@@ -18,5 +18,10 @@
         "name": "Chapaa Masala",
         "type": "Dish",
         "updated": 1694322826000
+    },
+    "AuniGift1": {
+        "name": "Spotted Stinkbug",
+        "type": "Bug",
+        "updated": 1694322826000
     }
 }
