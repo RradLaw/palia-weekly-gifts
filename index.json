@@ -1,22 +1,22 @@
 {
-    "Ashura": {
-        "gift1": {
-            "name": "Sweet Leaf",
-            "type": "Gatherables"
-        },
-        "gift2": {
-            "name": "Juniper Seed",
-            "type": "Gatherables"
-        },
-        "gift3": {
-            "name": "Fish Stew",
-            "type": "Dishes"
-        },
-        "gift4": {
-            "name": "Chapaa Masala",
-            "type": "Dishes"
-        }
+    "AshuraGift1": {
+        "name": "Sweet Leaf",
+        "type": "Gatherable",
+        "updated": 1684404800
     },
-    "expiry": 1694404800,
-    "updated": 1684404800
+    "AshuraGift2": {
+        "name": "Juniper Seed",
+        "type": "Gatherable",
+        "updated": 1684404800
+    },
+    "AshuraGift3": {
+        "name": "Fish Stew",
+        "type": "Dish",
+        "updated": 1684404800
+    },
+    "AshuraGift4": {
+        "name": "Chapaa Masala",
+        "type": "Dish",
+        "updated": 1684404800
+    }
 }
