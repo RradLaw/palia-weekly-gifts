@@ -28,5 +28,10 @@
         "name": "Proudhorn Stag Beetle",
         "type": "Bug",
         "updated": 1694322826000
+    },
+    "AuniGift3": {
+        "name": "Spotted Mantis",
+        "type": "Bug",
+        "updated": 1694322826000
     }
 }
