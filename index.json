@@ -23,5 +23,10 @@
         "name": "Spotted Stinkbug",
         "type": "Bug",
         "updated": 1694322826000
+    },
+    "AuniGift2": {
+        "name": "Proudhorn Stag Beetle",
+        "type": "Bug",
+        "updated": 1694322826000
     }
 }
