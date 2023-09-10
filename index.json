@@ -38,5 +38,10 @@
         "name": "Apple Pie",
         "type": "Dish",
         "updated": 1694322826000
+    },
+    "BadruuGift1": {
+        "name": "Cotton Seed",
+        "type": "Crop",
+        "updated": 1694322826000
     }
 }
