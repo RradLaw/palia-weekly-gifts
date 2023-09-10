@@ -2,21 +2,21 @@
     "AshuraGift1": {
         "name": "Sweet Leaf",
         "type": "Gatherable",
-        "updated": 1684404800
+        "updated": 1684404800000
     },
     "AshuraGift2": {
         "name": "Juniper Seed",
         "type": "Gatherable",
-        "updated": 1684404800
+        "updated": 1684404800000
     },
     "AshuraGift3": {
         "name": "Fish Stew",
         "type": "Dish",
-        "updated": 1684404800
+        "updated": 1684404800000
     },
     "AshuraGift4": {
         "name": "Chapaa Masala",
         "type": "Dish",
-        "updated": 1684404800
+        "updated": 1684404800000
     }
 }
