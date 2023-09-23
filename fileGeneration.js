@@ -44,10 +44,12 @@ let characters = [
     "Reth",
     "Sifuu",
     "Tamala",
+    "Tau",
     "Tish",
     "Zeki",
 ];
-
+console.log("{");
 for (var i = 0; i < characters.length; i++) {
     console.log(generateString(characters[i]));
 }
+console.log("}");
