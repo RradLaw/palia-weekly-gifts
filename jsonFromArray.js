@@ -1,29 +1,30 @@
 let data = {
-    "Ashura": ["Rainbow Trout", "Kilima Catfish", "Fried Catfish Dinner", "Chapaa Masala"],
-    "Auni": ["Common Bark Cicada", "Garden Millipede", "Apple", "Apple Pie"],
-    "Badruu": ["Carrot Seed", "Creamy Carrot Soup", "Loaded Potato Soup", "Meaty Stir Fry"],
-    "Caleri": ["Emerald Carpet Moss", "Kilima Redfin", "Pinecone", "Chapaa Masala"],
-    "Chayne": ["Wild Garlic", "Wheat Seed", "Pearl", "Palian Onion Soup"],
-    "Delaila": ["Channel Catfish", "SpeedyGro Fertilizer", "Vampire Crab", "Giant Goldfish"],
-    "Einar": ["Spotted Bullhead", "Mirror Carp", "Vampire Crab", "Kilima Grayling"],
-    "Elouisa": ["Calico Ko", "Albino Eel", "Willow Lamprey", "Green Pearl"],
-    "Eshe": ["Leather", "Silk", "Silver Bar", "Gold Bar"],
-    "Hassian": ["Sernuk Antlers", "Elder Sernuk Antlers", "Azure Chapaa Tail", "Steak Dinner"],
-    "Hekla": ["Crystal Lake Lotus", "Fried Catfish Dinner", "Cream of Mushroom Soup", "Enchanted Pupfish"],
-    "Hodari": ["Stone Brick", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers", "Bahari Glowbug"],
-    "Jel": ["Coral", "Sernuk Hide", "Azure Chapaa Tail", "Green Pearl"],
-    "Jina": ["Flint", "Heat Root", "Dragon's Beard Peat", "Void Ray"],
-    "Kenli": ["Wagon Wheel", "Garden Ladybug", "Fried Catfish Dinner", "Iron Bar"],
-    "Kenyatta": ["Sernuk Antlers", "Elder Sernuk Antlers", "Alligator Gar", "Fairy Mantis"],
-    "Nai'O": ["Stone Brick", "Heartwood Plank", "Bahari Pike", "Steak Dinner"],
-    "Najuma": ["Knapweed", "Copper Bar", "Silver Ore", "Blueberry Pie"],
-    "Reth": ["Tomato", "Sernuk Noodle Stew", "Apple", "Cream of Mushroom Soup"],
-    "Sifuu": ["Sernuk Antlers", "Copper Bar", "Cream of Tomato Soup", "Slowdown Arrow"],
-    "Tamala": ["Kilima Night Moth", "Silk", "Azure Stonehopper", "Fairy Mantis"],
-    "Tau": ["Fried Catfish Dinner", "Striped Chapaa Tail", "Chapaa Masala", "Wagon Wheel"],
-    "Tish": ["Sapwood Plank", "Juniper Seed", "Silk Thread", "Green Pearl"],
-    "Zeki": ["Silvery Minnow", "Silk", "Silver Ore", "Bouillabaisse"]
-  };
+
+    "Ashura": ["Rainbow Trout", "Prism Trout", "Fish Stew", "Sushi"],
+    "Auni": ["Ship Fragments", "Proudhorned Stag Beetle", "Spotted Mantis", "Apple Pie"],
+    "Badruu": ["Onion", "SpeedyGro Fertilizer", "Apple Tree Seed", "Meaty Stir Fry (Bugged)"],
+    "Caleri": ["Coral", "Kilima Redfin", "Crucian Carp", "Bouillabaisse"],
+    "Chayne": ["Crystal Lake Lotus", "Apple Jam", "Apple", "Dari Cloves"],
+    "Delaila": ["Bahari Crab", "Orange Bluegill", "Apple Tree Seed", "Giant Goldfish"],
+    "Einar": ["Mudminnow", "Prism Trout", "Glow Worm", "Enchanted Pupfish"],
+    "Elouisa": ["Ship Fragments", "Paddlefish", "Brighteye Butterfly", "Ancient Amber Beetle"],
+    "Eshe": ["Chapaa Fur", "Fish Stew", "Silver Bar", "Gold Bar"],
+    "Hassian": ["Spotted Chapaa Tail", "Fabric", "Azure Chapaa Tail", "Shimmerfin"],
+    "Hekla": ["Unopened Oyster", "Brightshroom", "Ramen", "Celebration Cake"],
+    "Hodari": ["Copper Ore", "Striped Chapaa Tail", "Hot Hounds", "Bahari Glowbug"],
+    "Jel": ["Kilima Night Moth", "Duskray", "Azure Chapaa Tail", "Midnight Paddlefish"],
+    "Jina": ["Flint", "Cotton Seed", "Brighteye Butterfly", "Rainbow-tipped Butterfly"],
+    "Kenli": ["Grilled Oyster", "Fish Stew", "Fried Catfish Dinner", "Akwinduu Chapaa"],
+    "Kenyatta": ["Crystal Lake Lotus", "Creamy Carrot Soup", "Dragon's Beard Peat", "Meaty Stir Fry"],
+    "Nai'O": ["Stone Brick", "Heat Root", "Apple Tree Seed", "Steak Dinner"],
+    "Najuma": ["Wild Garlic", "Copper Bar", "Blueberries", "Blueberry Pie"],
+    "Reth": ["Spice Sprouts", "Largemouth Bass", "Raspberry Beetle", "Cream of Mushroom Soup"],
+    "Sifuu": ["Sernuk Antlers", "Standard Arrow", "Cream of Tomato Soup (Bugged)", "Gold Bar"],
+    "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Azure Stonehopper", "Leafstalker Mantis"],
+    "Tau": ["Trout Dinner", "Garden Leafhopper", "Flow-Infused Plank", "Akwinduu Chapaa"],
+    "Tish": ["Shell", "Juniper Seed", "Silk Thread", "Blueberry Pie"],
+    "Zeki": ["Unopened Oyster", "Silk", "Pulsating Triangle (Unconfirmed)", "Poke Bowl"]
+};
 console.log("{");
 for (const key in data) {
     console.log(generateString(key, data[key]));
@@ -52,8 +53,8 @@ function generateString(character, array) {
         "updated": time
     },`;
 
-    for(let i = 0; i < array.length; i++) {
-        switch(i) {
+    for (let i = 0; i < array.length; i++) {
+        switch (i) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
                 break;
