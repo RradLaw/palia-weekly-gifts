@@ -1,32 +1,33 @@
 let data = {
 
+    "Ashura": ["Striped Dace", "Acorn", "Fish Stew", "Celebration Cake"],
+    "Auni": ["Waterlogged Boot", "Garden Mantis", "Firebreathing Dragonfly", "Apple Pie"],
+    "Badruu": ["Carrot", "HydratePro Fertilizer", "Blueberry Bush Seed", "Meaty Stir Fry (bugged)"],
+    "Caleri": ["Sundrop Lily", "Pickled Carrots", "Bahari Glowbug", "Chapaa Masala"],
+    "Chayne": ["Carrot", "Hearty Vegetable Soup", "Dragon's Beard Peat", "Cream of Mushroom Soup"],
+    "Delaila": ["Calico Koi", "Kilima Catfish", "Apple Tree Seed", "Gold Bar"],
+    "Einar": ["Spotted Bullhead", "Fairy Carp", "Vampire Crab", "Stormray"],
+    "Elouisa": ["Calico Koi", "Cerulean Cicada", "Scarlet Koi", "Rainbow-tipped Butterfly"],
+    "Eshe": ["Chapaa Fur", "Silk", "Silver Bar", "Gold Bar"],
+    "Hassian": ["Plant Fiber", "Sernuk Hide", "Iron Ore", "Giant Kilima Stingray"],
+    "Hekla": ["Mountain Morel", "Acorn", "Cream of Mushroom Soup", "Green Pearl"],
+    "Hodari": ["Sernuk Antlers", "Flow-Infused Wood", "Blue Marlin", "Spitfire Cicada"],
+    "Jel": ["Umbran Carp", "Silk", "Gossamer Veil Moth", "Green Pearl"],
+    "Jina": ["Wagon Wheel", "Heat Root", "Bacon-Stuffed Mushrooms", "Apple Pie"],
+    "Kenli": ["Grilled Oyster", "Garden Ladybug", "Steak Dinner", "Celebration Cake"],
+    "Kenyatta": ["Briar Daisy", "Cutthroat Trout", "Spicy Rice Cakes", "Crimson Fangtooth"],
+    "Nai'O": ["Wagon Wheel", "HydratePro Fertilizer", "Blueberry Jam", "Steak Dinner"],
+    "Najuma": ["Tomato Plant Seed", "Copper Bar", "Apple Jam", "Silver Bar"],
+    "Reth": ["Tomato", "Hearty Vegetable Soup", "Loaded Potato Soup", "Palian Onion Soup"],
+    "Sifuu": ["Copper Ore", "Copper Bar", "Proudhorned Sernuk Antlers", "Gold Ore"],
+    "Tamala": ["Chapaa Fur", "Lunar Fairy Moth", "Azure Stonehopper", "Enchanted Pupfish"],
+    "Tau": ["Sernuk Meat", "Grilled Fish", "Azure Chapaa Tail", "Rainbow-tipped Butterfly"],
+    "Tish": ["Shell", "Samara", "Pearl", "Green Pearl"],
+    "Zeki": ["Unopened Oyster", "Golden Salmon", "Zeki's Flyer", "Dari Cloves"]
 
 
 
-    "Ashura": ["Rainbow Trout", "Stickleback", "Fish Stew", "Celebration Cake"],
-    "Auni": ["Common Field Cricket", "Garden Snail", "Apple", "Apple Pie"],
-    "Badruu": ["Wagon Wheel", "QualityUp Fertilizer", "Loaded Potato Soup", "Meaty Stir Fry (Bugged)"],
-    "Caleri": ["Spice Sprouts", "Kilima Redfin", "Bahari Glowbug", "Dari Cloves"],
-    "Chayne": ["Tomato", "Samara", "Cream of Tomato Soup", "Dari Cloves"],
-    "Delaila": ["Rainbow Trout", "Orange Bluegill", "Iron Bar", "Giant Goldfish"],
-    "Einar": ["Worm", "Spineshell Crab", "Mottled Gobi", "Cloudfish"],
-    "Elouisa": ["Duskray", "Cantankerous Koi", "Indigo Lamprey", "Giant Goldfish"],
-    "Eshe": ["Leather", "Bluefin Tuna", "Silver Bar", "Palian Onion Soup"],
-    "Hassian": ["Leather", "Sernuk Hide", "Azure Chapaa Tail", "Giant Kilima Stingray"],
-    "Hekla": ["Mountain Morel", "Largemouth Bass", "Pearl", "Enchanted Pupfish"],
-    "Hodari": ["Leather", "Heartwood", "Proudhorned Sernuk Antlers", "Bahari Glowbug"],
-    "Jel": ["Eyeless Minnow", "Sernuk Hide", "Gossamer Veil Moth", "Green Pearl"],
-    "Jina": ["Flint", "Duskwing Butterfly", "Bacon-Stuffed Mushrooms", "Celebration Cake"],
-    "Kenli": ["Chapaa Meat", "Ramen", "Azure Chapaa Tail", "Iron Bar"],
-    "Kenyatta": ["Knapweed", "Elder Sernuk Antlers", "Brighteye Butterfly", "Fairy Mantis"],
-    "Nai'O": ["Stone Brick", "Rice Seed", "Corn", "Steak Dinner"],
-    "Najuma": ["Clay", "Copper Bar", "Stripeshell Snail", "Silver Bar"],
-    "Reth": ["Onion", "Largemouth Bass", "Cream of Tomato Soup", "Palian Onion Soup"],
-    "Sifuu": ["Sardine", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Gold Ore"],
-    "Tamala": ["Kilima Night Moth", "Garden Millipede", "Azure Stonehopper", "Long Nosed Unicorn Fish"],
-    "Tau": ["Chapaa Meat", "Oily Anchovy", "Golden Salmon", "Proudhorned Sernuk Antlers"],
-    "Tish": ["Sundrop Lily", "Juniper Seed", "Silk Thread", "Green Pearl"],
-    "Zeki": ["Grilled Fish", "Silk", "Golden Glory Bee", "Green Pearl"]
+
 };
 console.log("{");
 for (const key in data) {
