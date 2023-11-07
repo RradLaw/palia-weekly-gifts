@@ -1,9 +1,13 @@
+var typeJSON = require('./rawData.json');
+
+let errorString = "";
+
 let data = {
 
 
     "Ashura": ["Grilled Fish", "Samara", "Pinecone", "Sashimi"],
     "Auni": ["Common Blue Butterfly", "Garden Leafhopper", "Stripeshell Snail", "Apple Pie"],
-    "Badruu": ["Potato Seed", "Corn Seed", "Ramen", "Meaty Stir Fry (Bugged)"],
+    "Badruu": ["Potato Seed", "Corn Seed", "Ramen", "Meaty Stir Fry"],
     "Caleri": ["Crystal Lake Lotus", "Pickled Carrots", "Cream of Tomato Soup", "Bouillabaisse"],
     "Chayne": ["Tomato Plant Seed", "Pickled Tomatoes", "Heat Root", "Cream of Mushroom Soup"],
     "Delaila": ["Bahari Crab", "Kilima Catfish", "Iron Bar", "Gold Bar"],
@@ -29,31 +33,34 @@ let data = {
 
 
 };
-console.log("{");
+let outputStr = "{\n";
 for (const key in data) {
-    console.log(generateString(key, data[key]));
+    outputStr += generateString(key, data[key]) + "\n";
 }
-console.log("}");
+outputStr = outputStr.substring(0,outputStr.length - 2)
+outputStr += "\n}";
+console.log(outputStr);
+console.log(errorString);
 
 function generateString(character, array) {
     let template = `    "xxxGift1": {
         "name": "name1",
-        "type": "",
+        "type": "type1",
         "updated": time
     },
     "xxxGift2": {
         "name": "name2",
-        "type": "",
+        "type": "type2",
         "updated": time
     },
     "xxxGift3": {
         "name": "name3",
-        "type": "",
+        "type": "type3",
         "updated": time
     },
     "xxxGift4": {
         "name": "name4",
-        "type": "",
+        "type": "type4",
         "updated": time
     },`;
 
@@ -61,15 +68,31 @@ function generateString(character, array) {
         switch (i) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
+                template = template.replaceAll(/type1/g, typeJSON[array[i]] ?? "Unknown");
+                if(!typeJSON[array[i]]) {
+                    errorString += `Missing type for item ${array[i]}\n`;
+                }
                 break;
             case 1:
                 template = template.replaceAll(/name2/g, array[i]);
+                template = template.replaceAll(/type2/g, typeJSON[array[i]] ?? "Unknown");
+                if(!typeJSON[array[i]]) {
+                    errorString += `Missing type for item ${array[i]}\n`;
+                }
                 break;
             case 2:
                 template = template.replaceAll(/name3/g, array[i]);
+                template = template.replaceAll(/type3/g, typeJSON[array[i]] ?? "Unknown");
+                if(!typeJSON[array[i]]) {
+                    errorString += `Missing type for item ${array[i]}\n`;
+                }
                 break;
             case 3:
                 template = template.replaceAll(/name4/g, array[i]);
+                template = template.replaceAll(/type4/g, typeJSON[array[i]] ?? "Unknown");
+                if(!typeJSON[array[i]]) {
+                    errorString += `Missing type for item ${array[i]}\n`;
+                }
                 break;
         }
     }
