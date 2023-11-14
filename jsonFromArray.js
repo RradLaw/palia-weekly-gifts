@@ -17,7 +17,7 @@ let data = {
     "Hekla": ["Grilled Fish", "Brightshroom", "Trout Dinner", "Enchanted Pupfish"],
     "Hodari": ["Copper Ore", "Striped Chapaa Tail", "Loaded Potato Soup", "Bahari Glowbug"],
     "Jel": ["Leather", "Striped Chapaa Tail", "Gossamer Veil Moth", "Willow Lamprey"],
-    "Jina": ["Flint", "Glass Pane", "Radiant Sunfish", "Rainbow-tipped Butterfly"],
+    "Jina": ["Flint", "Glass Pane", "Radiant Sunfish", "Rainbow-Tipped Butterfly"],
     "Kenli": ["Grilled Oyster", "Hearty Vegetable Soup", "Sushi", "Gold Bar"],
     "Kenyatta": ["Garden Mantis", "Elder Sernuk Antlers", "Chili Oil Dumplings", "Fairy Mantis"],
     "Nai'O": ["Stone Brick", "Pickled Potatoes", "Fried Catfish Dinner", "Steak Dinner"],
