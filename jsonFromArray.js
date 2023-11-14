@@ -4,40 +4,37 @@ let errorString = "";
 
 let data = {
 
-
-    "Ashura": ["Grilled Fish", "Samara", "Pinecone", "Sashimi"],
-    "Auni": ["Common Blue Butterfly", "Garden Leafhopper", "Stripeshell Snail", "Apple Pie"],
-    "Badruu": ["Potato Seed", "Corn Seed", "Ramen", "Meaty Stir Fry"],
-    "Caleri": ["Crystal Lake Lotus", "Pickled Carrots", "Cream of Tomato Soup", "Bouillabaisse"],
-    "Chayne": ["Tomato Plant Seed", "Pickled Tomatoes", "Heat Root", "Cream of Mushroom Soup"],
-    "Delaila": ["Bahari Crab", "Kilima Catfish", "Iron Bar", "Gold Bar"],
-    "Einar": ["Mudminnow", "Garden Snail", "Glow Worm", "Enchanted Pupfish"],
-    "Elouisa": ["Ship Fragments", "Bahari Bee", "Dragon's Beard Peat", "Ancient Amber Beetle"],
-    "Eshe": ["Leather", "Fish Stew", "Silver Bar", "Gold Ore"],
-    "Hassian": ["Mountain Morel", "Striped Chapaa Tail", "Iron Ore", "Slowdown Arrow"],
-    "Hekla": ["Grilled Fish", "Painted Perch", "Chub", "Celebration Cake"],
-    "Hodari": ["Paper Lantern Bug", "Elder Sernuk Antlers", "Azure Chapaa Tail", "Spitfire Cicada"],
-    "Jel": ["Fur", "Albino Eel", "Gossamer Veil Moth", "Willow Lamprey"],
-    "Jina": ["Wagon Wheel", "Cotton Seed", "Mutated Angler", "Dari Cloves"],
-    "Kenli": ["Grilled Fish", "Fish Stew", "Trout Dinner", "Bouillabaisse"],
-    "Kenyatta": ["Sernuk Antlers", "Inky Dragonfly", "Pinecone", "Meaty Stir Fry"],
-    "Nai'O": ["Wagon Wheel", "HarvestBoost Fertilizer", "Stalking Catfish", "Steak Dinner"],
-    "Najuma": ["Flint", "Copper Bar", "Iron Ore", "Silver Bar"],
-    "Reth": ["Yellow Perch", "Hearty Vegetable Soup", "Apple", "Palian Onion Soup"],
-    "Sifuu": ["Copper Ore", "Oily Anchovy", "Proudhorned Sernuk Antlers", "Steak Dinner"],
-    "Tamala": ["Emerald Carpet Moss", "Garden Millipede", "Azure Stonehopper", "Ancient Amber Beetle"],
-    "Tau": ["Sapwood Plank", "Duskwing Butterfly", "Azure Stonehopper", "Grilled Meat"],
-    "Tish": ["Ship Fragments", "Samara", "Pearl", "Blueberry Pie"],
-    "Zeki": ["Grilled Fish", "Fish Stew", "Crab Gumbo", "Gold Bar"]
-
-
+    "Ashura": ["Channel Catfish", "Heartwood Plank", "Fish Stew", "Sashimi"],
+    "Auni": ["Spotted Stinkbug", "Garden Snail", "Apple", "Apple Pie"],
+    "Badruu": ["Onion Seed", "Spicy Pepper Seed", "Loaded Potato Soup", "Meaty Stir Fry"],
+    "Caleri": ["Paper Lantern Bug", "Kilima Redfin", "Silk Thread", "Chapaa Masala"],
+    "Chayne": ["Potato Seed", "Rice", "Apple", "Green Pearl"],
+    "Delaila": ["Channel Catfish", "Wheat Seed", "Blueberry Bush Seed", "Giant Goldfish"],
+    "Einar": ["Silver Salmon", "Mirror Carp", "Shimmerfin", "Ancient Fish"],
+    "Elouisa": ["Spotted Stinkbug", "Inky Dragonfly", "Thundering Eel", "Midnight Paddlefish"],
+    "Eshe": ["Fur", "Juniper Seed", "Silver Bar", "Bouillabaisse"],
+    "Hassian": ["Sernuk Antlers", "Chapaa Asada Tacos", "Azure Chapaa Tail", "Slowdown Arrow"],
+    "Hekla": ["Grilled Fish", "Brightshroom", "Trout Dinner", "Enchanted Pupfish"],
+    "Hodari": ["Copper Ore", "Striped Chapaa Tail", "Loaded Potato Soup", "Bahari Glowbug"],
+    "Jel": ["Leather", "Striped Chapaa Tail", "Gossamer Veil Moth", "Willow Lamprey"],
+    "Jina": ["Flint", "Glass Pane", "Radiant Sunfish", "Rainbow-tipped Butterfly"],
+    "Kenli": ["Grilled Oyster", "Hearty Vegetable Soup", "Sushi", "Gold Bar"],
+    "Kenyatta": ["Garden Mantis", "Elder Sernuk Antlers", "Chili Oil Dumplings", "Fairy Mantis"],
+    "Nai'O": ["Stone Brick", "Pickled Potatoes", "Fried Catfish Dinner", "Steak Dinner"],
+    "Najuma": ["Clay", "Copper Bar", "Stripeshell Snail", "Blueberry Pie"],
+    "Reth": ["Sweet Leaf", "Ramen", "Apple Jam", "Dari Cloves"],
+    "Sifuu": ["Grilled Meat", "Iron Ore", "Proudhorned Sernuk Antlers", "Swordfin Eel"],
+    "Tamala": ["Kilima Night Moth", "Lunar Fairy Moth", "Azure Stonehopper", "Fairy Mantis"],
+    "Tau": ["Common Blue Butterfly", "Steak Dinner", "Sernuk Noodle Stew", "Shimmerfin"],
+    "Tish": ["Shell", "Samara", "Silk Thread", "Blueberry Pie"],
+    "Zeki": ["Unopened Oyster", "Silk", "Fish Tacos", "Bouillabaisse"]
 
 };
 let outputStr = "{\n";
 for (const key in data) {
     outputStr += generateString(key, data[key]) + "\n";
 }
-outputStr = outputStr.substring(0,outputStr.length - 2)
+outputStr = outputStr.substring(0, outputStr.length - 2)
 outputStr += "\n}";
 console.log(outputStr);
 console.log(errorString);
@@ -69,28 +66,28 @@ function generateString(character, array) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
                 template = template.replaceAll(/type1/g, typeJSON[array[i]] ?? "Unknown");
-                if(!typeJSON[array[i]]) {
+                if (!typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 1:
                 template = template.replaceAll(/name2/g, array[i]);
                 template = template.replaceAll(/type2/g, typeJSON[array[i]] ?? "Unknown");
-                if(!typeJSON[array[i]]) {
+                if (!typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 2:
                 template = template.replaceAll(/name3/g, array[i]);
                 template = template.replaceAll(/type3/g, typeJSON[array[i]] ?? "Unknown");
-                if(!typeJSON[array[i]]) {
+                if (!typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 3:
                 template = template.replaceAll(/name4/g, array[i]);
                 template = template.replaceAll(/type4/g, typeJSON[array[i]] ?? "Unknown");
-                if(!typeJSON[array[i]]) {
+                if (!typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
