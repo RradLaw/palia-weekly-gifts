@@ -4,30 +4,33 @@ let errorString = "";
 
 let data = {
 
-    "Ashura": ["Channel Catfish", "Heartwood Plank", "Fish Stew", "Sashimi"],
-    "Auni": ["Spotted Stinkbug", "Garden Snail", "Apple", "Apple Pie"],
-    "Badruu": ["Onion Seed", "Spicy Pepper Seed", "Loaded Potato Soup", "Meaty Stir Fry"],
-    "Caleri": ["Paper Lantern Bug", "Kilima Redfin", "Silk Thread", "Chapaa Masala"],
-    "Chayne": ["Potato Seed", "Rice", "Apple", "Green Pearl"],
-    "Delaila": ["Channel Catfish", "Wheat Seed", "Blueberry Bush Seed", "Giant Goldfish"],
-    "Einar": ["Silver Salmon", "Mirror Carp", "Shimmerfin", "Ancient Fish"],
-    "Elouisa": ["Spotted Stinkbug", "Inky Dragonfly", "Thundering Eel", "Midnight Paddlefish"],
-    "Eshe": ["Fur", "Juniper Seed", "Silver Bar", "Bouillabaisse"],
-    "Hassian": ["Sernuk Antlers", "Chapaa Asada Tacos", "Azure Chapaa Tail", "Slowdown Arrow"],
-    "Hekla": ["Grilled Fish", "Brightshroom", "Trout Dinner", "Enchanted Pupfish"],
-    "Hodari": ["Copper Ore", "Striped Chapaa Tail", "Loaded Potato Soup", "Bahari Glowbug"],
-    "Jel": ["Leather", "Striped Chapaa Tail", "Gossamer Veil Moth", "Willow Lamprey"],
-    "Jina": ["Flint", "Glass Pane", "Radiant Sunfish", "Rainbow-Tipped Butterfly"],
-    "Kenli": ["Grilled Oyster", "Hearty Vegetable Soup", "Sushi", "Gold Bar"],
-    "Kenyatta": ["Garden Mantis", "Elder Sernuk Antlers", "Chili Oil Dumplings", "Fairy Mantis"],
-    "Nai'O": ["Stone Brick", "Pickled Potatoes", "Fried Catfish Dinner", "Steak Dinner"],
-    "Najuma": ["Clay", "Copper Bar", "Stripeshell Snail", "Blueberry Pie"],
-    "Reth": ["Sweet Leaf", "Ramen", "Apple Jam", "Dari Cloves"],
-    "Sifuu": ["Grilled Meat", "Iron Ore", "Proudhorned Sernuk Antlers", "Swordfin Eel"],
-    "Tamala": ["Kilima Night Moth", "Lunar Fairy Moth", "Azure Stonehopper", "Fairy Mantis"],
-    "Tau": ["Common Blue Butterfly", "Steak Dinner", "Sernuk Noodle Stew", "Shimmerfin"],
-    "Tish": ["Shell", "Samara", "Silk Thread", "Blueberry Pie"],
-    "Zeki": ["Unopened Oyster", "Silk", "Fish Tacos", "Bouillabaisse"]
+
+
+    "Ashura": ["Grilled Fish", "Kilima Catfish", "Crab Pot Pie", "Fisherman's Brew"],
+    "Auni": ["Unopened Oyster", "Garden Mantis", "Firebreathing Dragonfly", "Apple Pie"],
+    "Badruu": ["Carrot Seed", "Wheat", "Blueberry Bush Seed", "Meaty Stir Fry"],
+    "Caleri": ["Emerald Carpet Moss", "Pickled Carrots", "Silk Thread", "Dari Cloves"],
+    "Chayne": ["Onion Seed", "Juniper Seed", "Blueberry", "Palian Onion Soup"],
+    "Delaila": ["Rainbow Trout", "Wheat Seed", "Shepp's Pie", "Gold Bar"],
+    "Einar": ["Worm", "Ribbontail Ray", "Mottled Gobi", "Radiant Sunfish"],
+    "Elouisa": ["Duskray", "Inky Dragonfly", "Blobfish", "Giant Goldfish"],
+    "Eshe": ["Fur", "Bluefin Tuna", "Silver Bar", "Palian Onion Soup"],
+    "Hassian": ["Sernuk Antlers", "Chapaa Asada Tacos", "Proudhorned Sernuk Antlers", "Slowdown Arrow"],
+    "Hekla": ["Grilled Meat", "Bahari Bream", "Black Sea Bass", "Green Pearl"],
+    "Hodari": ["Leather", "Copper Bar", "Stonefish", "Spitfire Cicada"],
+    "Jel": ["Coral", "Freshwater Eel", "Vampire Crab", "Green Pearl"],
+    "Jina": ["Wagon Wheel", "Brightshroom", "Radiant Sunfish", "Rainbow-Tipped Butterfly"],
+    "Kenli": ["Spotted Chapaa Tail", "Ramen", "Trout Dinner", "Meaty Stir Fry"],
+    "Kenyatta": ["Crystal Lake Lotus", "Cytthroat Trout", "Proudhorned Sernuk Antlers", "Fairy Mantis"],
+    "Nai'O": ["Wagon Wheel", "Kilima Catfish", "Bahari Pike", "Steak Dinner"],
+    "Najuma": ["Tomato Plant Seed", "Copper Bar", "Apple", "Blueberry Pie"],
+    "Reth": ["Carrot", "Ramen", "Apple Jam", "Dari Cloves"],
+    "Sifuu": ["Stone Brick", "Elder Sernuk Antlers", "Iron Bar", "Swordfin Eel"],
+    "Tamala": ["Fur", "Garden Millipede", "Hairy Millipede", "Fairy Mantis"],
+    "Tau": ["Common Field Cricket", "Silver Salmon", "Grilled Oyster", "Shimmerfin"],
+    "Tish": ["Sapwood Plank", "Samara", "Pearl", "Blueberry Pie"],
+    "Zeki": ["Silvery Minnow", "Fish Stew", "Fish Tacos", "Bouillabaisse"]
+
 
 };
 let outputStr = "{\n";
