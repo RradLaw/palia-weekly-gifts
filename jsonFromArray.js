@@ -5,31 +5,35 @@ let errorString = "";
 let data = {
 
 
+    "Ashura": ["Channel Catfish", "Golden Salmon", "Flow-Infused Plank", "Fisherman's Brew"],
+    "Auni": ["Common Bark Cicada", "Cerulean Cicada", "Scintillating Centipede", "Apple Pie"],
+    "Badruu": ["Rosy Bitterling", "Orange Bluegill", "Apple Tree Seed", "Meaty Stir Fry"],
+    "Caleri": ["Grilled Oyster", "Heat Root", "Pinecone", "Bouillabaisse"],
+    "Chayne": ["Onion Seed", "Creamy Carrot Soup", "Dragon's Beard Peat", "Green Pearl"],
+    "Delaila": ["Calico Koi", "Wheat Seed", "Golden Glory Bee", "Giant Goldfish"],
+    "Einar": ["Eyeless Minnow", "Prism Trout", "Vampire Crab", "Stormray"],
+    "Elouisa": ["Calico Koi", "Albino Eel", "Spitfire Cicada", "Ancient Amber Beetle"],
+    "Eshe": ["Grilled Oyster", "Silk", "Macaron", "Jewelwing Dragonfly"],
+    "Hassian": ["Spotted Chapaa Tail", "Chapaa Asada Tacos", "Iron Bar", "Fireworks Arrow"],
+    "Hekla": ["Grilled Mushroom", "Largemouth Bass", "Ramen", "Green Pearl"],
+    "Hodari": ["Fur", "Heartwood", "Iron Bar", "Firebreathing Dragonfly"],
+    "Jel": ["Shell", "Lunar Fairy Moth", "Petit Fives", "Midnight Paddlefish"],
+    "Jina": ["Congee", "Duskwing Butterfly", "Shimmerfin", "Cream of Mushroom Soup"],
+    "Kenli": ["Grilled Fish", "Garden Ladybug", "Princess Ladybug", "Palian Onion Soup"],
+    "Kenyatta": ["Wild Garlic", "Creamy Carrot Soup", "Banded Muujin Mane", "Crimson Fangtooth"],
+    "Nai'O": ["Muujin Meat", "Channel Catfish", "Blueberry Bush Seed", "Steak Dinner"],
+    "Najuma": ["Wild Garlic", "Copper Bar", "Cream of Tomato Soup", "Blueberry Pie"],
+    "Reth": ["Potato", "Ramen", "Raspberry Beetle", "Dari Cloves"],
+    "Sifuu": ["Chapaa Meat", "Standard Arrow", "Iron Bar", "Fireworks Arrow"],
+    "Subira": ["Congee", "Trout Dinner", "Ancient Amber Beetle", "Chapaa Onigiri"],
+    "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Hairy Millipede", "Leafstalker Mantis"],
+    "Tau": ["Fried Catfish Dinner", "Unopened Oyster", "Brighteye Butterfly", "Apple"],
+    "Tish": ["Ship Fragments", "Acorn", "Apple Pie", "Green Pearl"],
+    "Zeki": ["Grilled Fish", "Silk", "Pearl", "Gold Ore"]
 
-    "Ashura": ["Grilled Fish", "Kilima Catfish", "Crab Pot Pie", "Fisherman's Brew"],
-    "Auni": ["Unopened Oyster", "Garden Mantis", "Firebreathing Dragonfly", "Apple Pie"],
-    "Badruu": ["Carrot Seed", "Wheat", "Blueberry Bush Seed", "Meaty Stir Fry"],
-    "Caleri": ["Emerald Carpet Moss", "Pickled Carrots", "Silk Thread", "Dari Cloves"],
-    "Chayne": ["Onion Seed", "Juniper Seed", "Blueberry", "Palian Onion Soup"],
-    "Delaila": ["Rainbow Trout", "Wheat Seed", "Shepp's Pie", "Gold Bar"],
-    "Einar": ["Worm", "Ribbontail Ray", "Mottled Gobi", "Radiant Sunfish"],
-    "Elouisa": ["Duskray", "Inky Dragonfly", "Blobfish", "Giant Goldfish"],
-    "Eshe": ["Fur", "Bluefin Tuna", "Silver Bar", "Palian Onion Soup"],
-    "Hassian": ["Sernuk Antlers", "Chapaa Asada Tacos", "Proudhorned Sernuk Antlers", "Slowdown Arrow"],
-    "Hekla": ["Grilled Meat", "Bahari Bream", "Black Sea Bass", "Green Pearl"],
-    "Hodari": ["Leather", "Copper Bar", "Stonefish", "Spitfire Cicada"],
-    "Jel": ["Coral", "Freshwater Eel", "Vampire Crab", "Green Pearl"],
-    "Jina": ["Wagon Wheel", "Brightshroom", "Radiant Sunfish", "Rainbow-Tipped Butterfly"],
-    "Kenli": ["Spotted Chapaa Tail", "Ramen", "Trout Dinner", "Meaty Stir Fry"],
-    "Kenyatta": ["Crystal Lake Lotus", "Cytthroat Trout", "Proudhorned Sernuk Antlers", "Fairy Mantis"],
-    "Nai'O": ["Wagon Wheel", "Kilima Catfish", "Bahari Pike", "Steak Dinner"],
-    "Najuma": ["Tomato Plant Seed", "Copper Bar", "Apple", "Blueberry Pie"],
-    "Reth": ["Carrot", "Ramen", "Apple Jam", "Dari Cloves"],
-    "Sifuu": ["Stone Brick", "Elder Sernuk Antlers", "Iron Bar", "Swordfin Eel"],
-    "Tamala": ["Fur", "Garden Millipede", "Hairy Millipede", "Fairy Mantis"],
-    "Tau": ["Common Field Cricket", "Silver Salmon", "Grilled Oyster", "Shimmerfin"],
-    "Tish": ["Sapwood Plank", "Samara", "Pearl", "Blueberry Pie"],
-    "Zeki": ["Silvery Minnow", "Fish Stew", "Fish Tacos", "Bouillabaisse"]
+
+
+
 
 
 };
