@@ -4,31 +4,35 @@ let errorString = "";
 
 let data = {
 
-    "Ashura": ["Silver Salmon", "Striped Sturgeon", "Fish Stew", "Apple Pie"],
-    "Auni": ["Ship Fragments", "Duskwing Butterfly", "Blueberry", "Apple Pie"],
-    "Badruu": ["Potato", "Rice Seed", "Loaded Potato Soup", "Cream of Mushroom Soup"],
-    "Caleri": ["Grilled Mushroom", "Heat Root", "Oysters Akwinduu", "Bouillabaisse"],
-    "Chayne": ["Knapweed", "Rice Seed", "Heat Root", "Green Pearl"],
-    "Delaila": ["Bahari Crab", "WeedBlock Fertilizer", "Apple", "Giant Goldfish"],
-    "Einar": ["Gillyfin", "Ribbontail Ray", "Glow Worm", "Void Ray"],
-    "Elouisa": ["Ship Fragments", "Paddlefish", "Energised Piranha", "Bluebristle Muujin Mane"],
-    "Eshe": ["Fur", "Fish Stew", "Macaron", "Gold Ore"],
-    "Hassian": ["Congee", "Standard Arrow", "Iron Bar", "Fireworks Arrow"],
-    "Hekla": ["Sundrop Lily", "Fried Catfish Dinner", "Chub", "Enchanted Pupfish"],
-    "Hodari": ["Grilled Meat", "Sernuk Noodle Stew", "Loaded Potato Soup", "Firebreathing Dragonfly"],
-    "Jel": ["Barracuda", "Muujin Mane", "Oysters Akwinduu", "Green Pearl"],
-    "Jina": ["Congee", "Cotton Seed", "Dragon's Beard Peat", "Apple Pie"],
-    "Kenli": ["Spotted Chapaa Tail", "Fish Stew", "Sashimi", "Muujin Bahari"],
-    "Kenyatta": ["Briar Daisy", "Elder Sernuk Antlers", "Pinecone", "Fairy Mantis"],
-    "Nai'O": ["Muujin Meat", "Heat Root", "Apple Tree Seed", "Steak Dinner"],
-    "Najuma": ["Clay", "Copper Bar", "Iron Bar", "Silver Bar"],
-    "Reth": ["Yellow Perch", "Heat Root", "Loaded Potato Soup", "Dari Cloves"],
-    "Sifuu": ["Chapaa Meat", "Oily Anchovy", "Iron Bar", "Dispel Arrow"],
-    "Subira": ["Iron Bar", "Fish Stew", "Chili Oil Dumplings", "Firebreathing Dragonfly"],
-    "Tamala": ["Kilima Night Moth", "Garden Millipede", "Hairy Millipede", "Void Ray"],
-    "Tau": ["Calico Koi", "Heartwood Plank", "Golden Salmon", "Wagon Wheel"],
-    "Tish": ["Sapwood Plank", "Acorn", "Apple Pie", "Green Pearl"],
-    "Zeki": ["Silvery Minnow", "Golden Salmon", "Platinum Chad", "Poke Bowl"]
+    "Ashura": ["Congee", "Stickleback", "Stalking Catfish", "Apple Pie"],
+    "Auni": ["Common Bark Cicada", "Garden Millipede", "Spotted Mantis", "Apple Pie"],
+    "Badruu": ["Wagon Wheel", "Wheat Seed", "Loaded Potato Soup", "Cream of Mushroom Soup"],
+    "Caleri": ["Knapweed", "Pickled Carrots", "Chapaa Onigiri", "Chapaa Masala"],
+    "Chayne": ["Knapweed", "Pickled Tomatoes", "Apple", "Palian Onion Soup"],
+    "Delaila": ["Channel Catfish", "WeedBlock Fertilizer", "Golden Glory Bee", "Gold Bar"],
+    "Einar": ["Silver Salmon", "Prism Trout", "Shimmerfin", "Fisherman's Brew"],
+    "Elouisa": ["Spotted Stinkbug", "Cantankerous Koi", "Indigo Lamprey", "Green Pearl"],
+    "Eshe": ["Grilled Oyster", "Juniper Seed", "Macaron", "Bouillabaisse"],
+    "Hassian": ["Leather", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers", "Dispel Arrow"],
+    "Hekla": ["Briar Daisy", "Painted Perch", "Trout Dinner", "Green Pearl"],
+    "Hodari": ["Paper Lantern Bug", "Elder Sernuk Antlers", "Stonefish", "Steak Dinner"],
+    "Jel": ["Eyeless Minnow", "Sernuk Hide", "Oysters Akwinduu", "Bluebristle Muujin Mane"],
+    "Jina": ["Wagon Wheel", "Glass Pane", "Dragon's Beard Peat", "Void Ray"],
+    "Kenli": ["Grilled Fish", "Hearty Vegetable Soup", "Azure Chapaa Tail", "Iron Bar"],
+    "Kenyatta": ["Sardine", "Cytthroat Trout", "Chili Oil Dumplings", "Bluebristle Muujin Mane"],
+    "Nai'O": ["Wagon Wheel", "Wheat Seed", "Iron Bar", "Steak Dinner"],
+    "Najuma": ["Tomato Plant Seed", "Copper Bar", "Blueberry", "Silver Bar"],
+    "Reth": ["Sweet Leaf", "Heat Root", "Blueberry", "Dari Cloves"],
+    "Sifuu": ["Sernuk Antlers", "Copper Bar", "Iron Bar", "Slowdown Arrow"],
+    "Subira": ["Copper Bar", "Radiant Sunfish", "Sashimi", "Chapaa Onigiri"],
+    "Tamala": ["Fur", "Lunar Fairy Moth", "Hairy Millipede", "Flametongue Ray"],
+    "Tau": ["Chapaa Meat", "Garden Leafhopper", "Elder Sernuk Antlers", "Akwinduu Chapaa"],
+    "Tish": ["Ship Fragments", "Acorn", "Petit Fives", "Blueberry Pie"],
+    "Zeki": ["Grilled Fish", "Fish Stew", "Platinum Chad", "Green Pearl"]
+
+
+
+
 
 
 };
