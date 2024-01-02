@@ -3,7 +3,6 @@ var typeJSON = require('./rawData.json');
 let errorString = "";
 
 let data = {
-
     "Ashura": ["Silver Salmon", "Acorn", "Fried Catfish Dinner", "Apple Pie"],
     "Auni": ["Common Field Cricket", "Cerulean Cicada", "Scintillating Centipede", "Celebration Cake"],
     "Badruu": ["Tomato", "SpeedyGro Fertilizer", "Cream of Mushroom Soup", "Blueberry Bush Seed"],
@@ -29,6 +28,7 @@ let data = {
     "Tau": ["Sernuk Meat", "Cantankerous Koi", "Carrot", "Akwinduu Chapaa"],
     "Tish": ["Briar Daisy", "Acorn", "Apple Pie", "Blueberry Pie"],
     "Zeki": ["Unopened Oyster", "Golden Salmon", "Flow-Infused Plank", "Dari Cloves"]
+
 
 
 
