@@ -3,31 +3,33 @@ var typeJSON = require('./rawData.json');
 let errorString = "";
 
 let data = {
-    "Ashura": ["Sweet Leaf", "Juniper Seed", "Fish Stew", "Blueberry Pie"],
-    "Auni": ["Waterlogged Boot", "Bahari Bee", "Apple", "Celebration Cake"],
-    "Badruu": ["Tomato Plant Seed", "HarvestBoost Fertilizer", "Apple Tree Seed", "Cream of Mushroom Soup"],
-    "Caleri": ["Paper Lantern Bug", "Pickled Carrots", "Bahari Glowbug", "Bouillabaisse"],
-    "Chayne": ["Onion", "Juniper Seed", "Cream of Tomato Soup", "Dari Cloves"],
-    "Delaila": ["Muujin Meat", "HarvestBoost Fertilizer", "Apple", "Gold Bar"],
-    "Einar": ["Eyeless Minnow", "Spineshell Crab", "Vampire Crab", "Stormray"],
-    "Elouisa": ["Common Bark Cicada", "Cerulean Cicada", "Raspberry Beetle", "Ancient Amber Beetle"],
-    "Eshe": ["Fur", "Silk", "Macaron", "Jewelwing Dragonfly"],
-    "Hassian": ["Grilled Meat", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers", "Dispel Arrow"],
-    "Hekla": ["Crystal Lake Lotus", "Bahari Bream", "Ramen", "Celebration Cake"],
-    "Hodari": ["Leather", "Copper Bar", "Proudhorned Sernuk Antlers", "Steak Dinner"],
-    "Jel": ["Waterlogged Boot", "Duskray", "Oysters Akwinduu", "Willow Lamprey"],
-    "Jina": ["Wagon Wheel", "Duskwing Butterfly", "Brighteye Butterfly", "Rainbow-Tipped Butterfly"],
-    "Kenli": ["Spotted Chapaa Tail", "Garden Ladybug", "Petit Fives", "Akwinduu Chapaa"],
-    "Kenyatta": ["Garden Mantis", "Acorn", "Spicy Rice Cakes", "Meaty Stir Fry"],
-    "Nai'O": ["Wagon Wheel", "WeedBlock Fertilizer", "Corn", "Steak Dinner"],
-    "Najuma": ["Sweet Leaf", "Copper Bar", "Silver Ore", "Silver Bar"],
-    "Reth": ["Potato", "Heat Root", "Apple", "Cream of Mushroom Soup"],
-    "Sifuu": ["Sernuk Antlers", "Standard Arrow", "Silver Ore", "Gold Bar"],
-    "Subira": ["Copper Ore", "Steak Dinner", "Ancient Amber Beetle", "Firebreathing Dragonfly"],
-    "Tamala": ["Emerald Carpet Moss", "Garden Millipede", "Hairy Millipede", "Ancient Amber Beetle"],
-    "Tau": ["Spotted Chapaa Tail", "Oily Anchovy", "Scarlet Koi", "Proudhorned Sernuk Antlers"],
-    "Tish": ["Sapwood Plank", "Glass Bulb", "Petit Fives", "Blueberry Pie"],
-    "Zeki": ["Silvery Minnow", "Fish Stew", "Flow-Infused Plank", "Dari Cloves"]
+
+    "Ashura": ["Sapwood Plank", "Samara", "Reth's Century Egg", "Blueberry Pie"],
+    "Auni": ["Brushtail Dragonfly", "Garden Leafhopper", "Firebreathing Dragonfly", "Celebration Cake"],
+    "Badruu": ["Potato Seed", "HydratePro Fertilizer", "Ramen", "Cream of Mushroom Soup"],
+    "Caleri": ["Crystal Lake Lotus", "Heat Root", "Blueberry Jam", "Hypnotic Moray"],
+    "Chayne": ["Wild Garlic", "Hearty Vegetable Soup", "Dragon's Beard Peat", "Cream of Mushroom Soup"],
+    "Delaila": ["Rosy Bitterling", "HarvestBoost Fertilizer", "Golden Glory Bee", "Giant Goldfish"],
+    "Einar": ["Silvery Minnow", "Fairy Carp", "Fathead Minnow", "Blue Spotted Ray"],
+    "Elouisa": ["Unopened Oyster", "Proudhorned Stag Beetle", "Pearl", "Midnight Paddlefish"],
+    "Eshe": ["Fur", "Samara", "Macaron", "Akwinduu Chapaa"],
+    "Hassian": ["Mountain Morel", "Brightshroom", "Iron Bar", "Steak Dinner"],
+    "Hekla": ["Unopened Oyster", "Smallmouth Bass", "Pinecone", "Enchanted Pupfish"],
+    "Hodari": ["Sernuk Antlers", "Heartwood", "Blue Marlin", "Firebreathing Dragonfly"],
+    "Jel": ["Fur", "Muujin Mane", "Banded Muujin Mane", "Green Pearl"],
+    "Jina": ["Congee", "Heat Root", "Bacon-Stuffed Mushrooms", "Cream of Mushroom Soup"],
+    "Kenli": ["Grilled Fish", "Striped Chapaa Tail", "Steak Dinner", "Kenli's Carp"],
+    "Kenyatta": ["Crystal Lake Lotus", "Elder Sernuk Antlers", "Spotted Mantis", "Fairy Mantis"],
+    "Nai'O": ["Muujin Meat", "QualityUp Fertilizer", "Blueberry Jam", "Steak Dinner"],
+    "Najuma": ["Copper Ore", "Copper Bar", "Apple Jam", "Blueberry Pie"],
+    "Reth": ["Sernuk Meat", "Wheat", "Apple Jam", "Cream of Mushroom Soup"],
+    "Sifuu": ["Copper Ore", "Iron Ore", "Silver Ore", "Gold Bar"],
+    "Subira": ["Leather", "Gold Ore", "Mutated Angler", "Chapaa Onigiri"],
+    "Tamala": ["Kilima Night Moth", "Lunar Fairy Moth", "Hairy Millipede", "Ancient Amber Beetle"],
+    "Tau": ["Sapwood Plank", "Grilled Fish", "Azure Chapaa Tail", "Proudhorned Sernuk Antlers"],
+    "Tish": ["Ship Fragments", "Glass Bulb", "Apple Pie", "Green Pearl"],
+    "Zeki": ["Grilled Fish", "Golden Salmon", "Sushi", "Gold Bar"]
+
 
 
 
