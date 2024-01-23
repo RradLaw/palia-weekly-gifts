@@ -5,31 +5,182 @@ let errorString = "";
 let data = {
 
 
-    "Ashura": ["Sweet Leaf", "Heartwood Plank", "Pinecone", "Trout Dinner"],
-    "Auni": ["Common Blue Butterfly", "Garden Snail", "Hairy Millipede", "Celebration Cake"],
-    "Badruu": ["Cotton Seed", "WeedBlock Fertilizer", "Loaded Potato Soup", "Cream of Mushroom Soup"],
-    "Caleri": ["Sweet Leaf", "Glass Bulb", "Cream of Tomato Soup", "Dari Cloves"],
-    "Chayne": ["Crystal Lake Lotus", "Wheat Seed", "Pearl", "Dari Cloves"],
-    "Delaila": ["Bahari Crab", "Clay", "Scarlet Koi", "Gold Bar"],
-    "Einar": ["Gillyfin", "Red-bellied Piranha", "Glow Worm", "Void Ray"],
-    "Elouisa": ["Ship Fragments", "Bahari Bee", "Beluga", "Bluebristle Muujin Mane"],
-    "Eshe": ["Grilled Oyster", "Fish Stew", "Macaron", "Gold Ore"],
-    "Hassian": ["Sernuk Antlers", "Brightshroom", "Proudhorned Sernuk Antlers", "Steak Dinner"],
-    "Hekla": ["Unopened Oyster", "Acorn", "Pearl", "Green Pearl"],
-    "Hodari": ["Grilled Meat", "Flow-Infused Wood", "Hot Hounds", "Steak Dinner"],
-    "Jel": ["Leather", "Sernuk Hide", "Banded Muujin Mane", "Muujin Bahari"],
-    "Jina": ["Wagon Wheel", "Cotton", "Bacon-Stuffed Mushrooms", "Celebration Cake"],
-    "Kenli": ["Wagon Wheel", "Fish Stew", "Oysters Akwinduu", "Iron Bar"],
-    "Kenyatta": ["Wild Garlic", "Cytthroat Trout", "Alligator Gar", "Bluebristle Muujin Mane"],
-    "Nai'O": ["Wagon Wheel", "HarvestBoost Fertilizer", "Stalking Catfish", "Steak Dinner"],
-    "Najuma": ["Knapweed", "Copper Bar", "Honey Loach", "Blueberry Pie"],
-    "Reth": ["Congee", "Wheat", "Raspberry Beetle", "Cream of Mushroom Soup"],
-    "Sifuu": ["Sardine", "Elder Sernuk Antlers", "Silver Ore", "Silver Bar"],
-    "Subira": ["Sernuk Hide", "Flow-Infused Plank", "Chili Oil Dumplings", "Energised Piranha"],
-    "Tamala": ["Fur", "Garden Millipede", "Hairy Millipede", "Fairy Mantis"],
-    "Tau": ["Muujin Meat", "Sernuk Antlers", "Grilled Oyster", "Rainbow-Tipped Butterfly"],
-    "Tish": ["Briar Daisy", "Glass Bulb", "Petit Fives", "Green Pearl"],
-    "Zeki": ["Unopened Oyster", "Fish Stew", "Sashimi", "Gold Bar"]
+
+    "Ashura": [
+        "Sapwood Plank",
+        "Kilima Catfish",
+        "Fish Stew",
+        "Trout Dinner"
+    ],
+
+    "Auni": [
+        "Waterlogged Boot",
+        "Garden Mantis",
+        "Stripeshell Snail",
+        "Celebration Cake"
+    ],
+
+    "Badruu": [
+        "Carrot Seed",
+        "Rice",
+        "Blueberry Bush Seed",
+        "Cream of Mushroom Soup"
+    ],
+
+    "Caleri": [
+        "Coral",
+        "Heat Root",
+        "Silk Thread",
+        "Chapaa Masala"
+    ],
+
+    "Chayne": [
+        "Sundrop Lily",
+        "Blueberry Bush Seed",
+        "Heat Root",
+        "Cream of Mushroom Soup"
+    ],
+
+    "Delaila": [
+        "Channel Catfish",
+        "Clay",
+        "Apple",
+        "Giant Goldfish"
+    ],
+
+    "Einar": [
+        "Silver Salmon",
+        "Garden Snail",
+        "Shimmerfin",
+        "Fisherman's Brew"
+    ],
+
+    "Elouisa": [
+        "Spotted Stinkbug",
+        "Inky Dragonfly",
+        "Blobfish",
+        "Green Pearl"
+    ],
+
+    "Eshe": [
+        "Leather",
+        "Juniper Seed",
+        "Silver Bar",
+        "Bouillabaisse"
+    ],
+
+    "Hassian": [
+        "Fur",
+        "Cotton",
+        "Iron Bar",
+        "Steak Dinner"
+    ],
+
+    "Hekla": [
+        "Oyster Meat",
+        "Fried Catfish Dinner",
+        "Cream of Mushroom Soup",
+        "Green Pearl"
+    ],
+
+    "Hodari": [
+        "Muujin Meat",
+        "Sernuk Noodle Stew",
+        "Iron Ore",
+        "Firebreathing Dragonfly"
+    ],
+
+    "Jel": [
+        "Coral",
+        "Silk",
+        "Banded Muujin Mane",
+        "Bluebristle Muujin Mane"
+    ],
+
+    "Jina": [
+        "Congee",
+        "Cotton Seed",
+        "Mutated Angler",
+        "Apple Pie"
+    ],
+
+    "Kenli": [
+        "Chapaa Meat",
+        "Hearty Vegetable Soup",
+        "Trout Dinner",
+        "Celebration Cake"
+    ],
+
+    "Kenyatta": [
+        "Knapweed",
+        "Creamy Carrot Soup",
+        "Spicy Stir Fry",
+        "Bluebristle Muujin Mane"
+    ],
+
+    "Nai'O": [
+        "Muujin Meat",
+        "SpeedyGro Fertilizer",
+        "Fried Catfish Dinner",
+        "Steak Dinner"
+    ],
+
+    "Najuma": [
+        "Tomato",
+        "Copper Bar",
+        "Flow-Infused Plank",
+        "Blueberry Pie"
+    ],
+
+    "Reth": [
+        "Spice Sprouts",
+        "Wheat",
+        "Cream of Tomato Soup",
+        "Cream of Mushroom Soup"
+    ],
+
+    "Sifuu": [
+        "Copper Ore",
+        "Copper Bar",
+        "Silver Ore",
+        "Silver Bar"
+    ],
+
+    "Subira": [
+        "Fur",
+        "Heat Root",
+        "Red-bellied Piranha",
+        "Firebreathing Dragonfly"
+    ],
+
+    "Tamala": [
+        "Emerald Carpet Moss",
+        "Garden Millipede",
+        "Garden Leafhopper",
+        "Fairy Mantis"
+    ],
+
+    "Tau": [
+        "Common Blue Butterfly",
+        "Duskwing Butterfly",
+        "Brighteye Butterfly",
+        "Rainbow-Tipped Butterfly"
+    ],
+
+    "Tish": [
+        "Sweet Leaf",
+        "Glass Bulb",
+        "Apple Pie",
+        "Green Pearl"
+    ],
+
+    "Zeki": [
+        "Silvery Minnow",
+        "Golden Salmon",
+        "Sashimi",
+        "Bouillabaisse"
+    ],
+
 
 
 
