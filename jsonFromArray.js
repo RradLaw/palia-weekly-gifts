@@ -1,5 +1,10 @@
-var typeJSON = require('./rawData.json');
-
+let fileRead = false;
+try {
+    var typeJSON = require('./rawData.json');
+    fileRead = true;
+} catch (e) {
+    fileRead = false;
+}
 let errorString = "";
 
 let data = {
@@ -227,29 +232,45 @@ function generateString(character, array) {
         switch (i) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
-                template = template.replaceAll(/type1/g, typeJSON[array[i]] ?? "Unknown");
-                if (!typeJSON[array[i]]) {
+                if(fileRead) {
+                    template = template.replaceAll(/type1/g, typeJSON[array[i]] ?? "Unknown");
+                } else {
+                    template = template.replaceAll(/type1/g, "Unknown");
+                }
+                if (fileRead && !typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 1:
                 template = template.replaceAll(/name2/g, array[i]);
-                template = template.replaceAll(/type2/g, typeJSON[array[i]] ?? "Unknown");
-                if (!typeJSON[array[i]]) {
+                if(fileRead) {
+                    template = template.replaceAll(/type2/g, typeJSON[array[i]] ?? "Unknown");
+                } else {
+                    template = template.replaceAll(/type2/g, "Unknown");
+                }
+                if (fileRead && !typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 2:
                 template = template.replaceAll(/name3/g, array[i]);
-                template = template.replaceAll(/type3/g, typeJSON[array[i]] ?? "Unknown");
-                if (!typeJSON[array[i]]) {
+                if(fileRead) {
+                    template = template.replaceAll(/type3/g, typeJSON[array[i]] ?? "Unknown");
+                } else {
+                    template = template.replaceAll(/type3/g, "Unknown");
+                }
+                if (fileRead && !typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
             case 3:
                 template = template.replaceAll(/name4/g, array[i]);
-                template = template.replaceAll(/type4/g, typeJSON[array[i]] ?? "Unknown");
-                if (!typeJSON[array[i]]) {
+                if(fileRead) {
+                    template = template.replaceAll(/type4/g, typeJSON[array[i]] ?? "Unknown");
+                } else {
+                    template = template.replaceAll(/type4/g, "Unknown");
+                }
+                if (fileRead && !typeJSON[array[i]]) {
                     errorString += `Missing type for item ${array[i]}\n`;
                 }
                 break;
