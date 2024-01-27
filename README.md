@@ -4,7 +4,7 @@ The file `index.json` is used to give users of the [Palia Guide by A J Lake app]
 
 There are three variables needed for each gift:
 - "name" is the name of the item.
-- "type" is the collection the item appears in. Possible options are "Dish", "Bug", "Cooking Product", "Crop", "Equipment", "Fish", "Gatherable", and "Material".
+- "type" is the collection the item appears in. Possible options are "Dish", "Bug", "Cooking Product", "Crop", "Equipment", "Fish", "Gatherable", "Material", and "Unknown".
 - "updated" is the Unix epoch time in milliseconds of when the item was last updated. [This Site](https://www.epochconverter.com/) can be used to generate it (be sure to add 3 zeros to the end so it's not in seconds!)
 
 ## Pull Requests
