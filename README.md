@@ -1,6 +1,6 @@
 # Palia Weekly Gifts
 
-The file `index.json` is used to give users of the Palia Guide by A J Lake app their weekly gifts.
+The file `index.json` is used to give users of the [Palia Guide by A J Lake app](https://paliaguide.websitesbyastrea.com.au/) their weekly gifts.
 
 There are three variables needed for each gift:
 - "name" is the name of the item.
