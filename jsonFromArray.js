@@ -11,180 +11,32 @@ let data = {
 
 
 
-    "Ashura": [
-        "Sapwood Plank",
-        "Kilima Catfish",
-        "Fish Stew",
-        "Trout Dinner"
-    ],
+    "Ashura": ["Rainbow Trout", "Golden Salmon", "Crab Pot Pie", "Trout Dinner"],
+    "Auni": ["Unopened Oyster", "Bahari Bee", "Apple", "Celebration Cake"],
+    "Badruu": ["Rosy Bitterling", "Corn Seed", "Apple Tree Seed", "Cream of Mushroom Soup"],
+    "Caleri": ["Grilled Oyster", "Glass Bulb", "Pinecone", "Dari Cloves"],
+    "Chayne": ["Tomato", "Apple Jam", "Apple", "Dari Cloves"],
+    "Delaila": ["Rosy Bitterling", "Clay", "Vampire Crab", "Gold Bar"],
+    "Einar": ["Bahari Crab", "Mirror Carp", "Mottled Gobi", "Kilima Greyling"],
+    "Elouisa": ["Duskray", "Albino Eel", "Spitfire Cicada", "Cloudfish"],
+    "Eshe": ["Fur", "Bluefin Tuna", "Silver Bar", "Palian Onion Soup"],
+    "Hassian": ["Spotted Chapaa Tail", "Cotton", "Proudhorned Sernuk Antlers", "Shimmerfin"],
+    "Hekla": ["Mountain Morel", "Painted Perch", "Beluga", "Celebration Cake"],
+    "Hodari": ["Copper Ore", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Steak Dinner"],
+    "Jel": ["Shell", "Duskray", "Banded Muujin Mane", "Willow Lamprey"],
+    "Jina": ["Wagon Wheel", "Glass Pane", "Mutated Angler", "Void Ray"],
+    "Kenli": ["Grilled Fish", "Creamy Carrot Soup", "Princess Ladybug", "Chapaa Masala"],
+    "Kenyatta": ["Sundrop Lily", "Acorn", "Dragon's Beard Peat", "Crimson Fangtooth"],
+    "Nai'O": ["Wagon Wheel", "Kilima Catfish", "Bahari Pike", "Steak Dinner"],
+    "Najuma": ["Sweet Leaf", "Copper Bar", "Stripeshell Snail", "Blueberry Pie"],
+    "Reth": ["Wild Garlic", "Wheat", "Loaded Potato Soup", "Palian Onion Soup"],
+    "Sifuu": ["Grilled Meat", "Pickled Carrots", "Cream of Tomato Soup", "Gold Ore"],
+    "Subira": ["Wheat", "Ancient Fish", "Chapaa Onigiri", "?"],
+    "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Fairy Carp", "Leafstalker Mantis"],
+    "Tau": ["Common Field Cricket", "Steak Dinner", "Chapaa Masala", "Grilled Meat"],
+    "Tish": ["Ship Fragments", "Glass Bulb", "Petit Fives", "Blueberry Pie"],
+    "Zeki": ["Grilled Fish", "Silk", "Silver Bar", "Gold Ore"],
 
-    "Auni": [
-        "Waterlogged Boot",
-        "Garden Mantis",
-        "Stripeshell Snail",
-        "Celebration Cake"
-    ],
-
-    "Badruu": [
-        "Carrot Seed",
-        "Rice",
-        "Blueberry Bush Seed",
-        "Cream of Mushroom Soup"
-    ],
-
-    "Caleri": [
-        "Coral",
-        "Heat Root",
-        "Silk Thread",
-        "Chapaa Masala"
-    ],
-
-    "Chayne": [
-        "Sundrop Lily",
-        "Blueberry Bush Seed",
-        "Heat Root",
-        "Cream of Mushroom Soup"
-    ],
-
-    "Delaila": [
-        "Channel Catfish",
-        "Clay",
-        "Apple",
-        "Giant Goldfish"
-    ],
-
-    "Einar": [
-        "Silver Salmon",
-        "Garden Snail",
-        "Shimmerfin",
-        "Fisherman's Brew"
-    ],
-
-    "Elouisa": [
-        "Spotted Stinkbug",
-        "Inky Dragonfly",
-        "Blobfish",
-        "Green Pearl"
-    ],
-
-    "Eshe": [
-        "Leather",
-        "Juniper Seed",
-        "Silver Bar",
-        "Bouillabaisse"
-    ],
-
-    "Hassian": [
-        "Fur",
-        "Cotton",
-        "Iron Bar",
-        "Steak Dinner"
-    ],
-
-    "Hekla": [
-        "Oyster Meat",
-        "Fried Catfish Dinner",
-        "Cream of Mushroom Soup",
-        "Green Pearl"
-    ],
-
-    "Hodari": [
-        "Muujin Meat",
-        "Sernuk Noodle Stew",
-        "Iron Ore",
-        "Firebreathing Dragonfly"
-    ],
-
-    "Jel": [
-        "Coral",
-        "Silk",
-        "Banded Muujin Mane",
-        "Bluebristle Muujin Mane"
-    ],
-
-    "Jina": [
-        "Congee",
-        "Cotton Seed",
-        "Mutated Angler",
-        "Apple Pie"
-    ],
-
-    "Kenli": [
-        "Chapaa Meat",
-        "Hearty Vegetable Soup",
-        "Trout Dinner",
-        "Celebration Cake"
-    ],
-
-    "Kenyatta": [
-        "Knapweed",
-        "Creamy Carrot Soup",
-        "Spicy Stir Fry",
-        "Bluebristle Muujin Mane"
-    ],
-
-    "Nai'O": [
-        "Muujin Meat",
-        "SpeedyGro Fertilizer",
-        "Fried Catfish Dinner",
-        "Steak Dinner"
-    ],
-
-    "Najuma": [
-        "Tomato",
-        "Copper Bar",
-        "Flow-Infused Plank",
-        "Blueberry Pie"
-    ],
-
-    "Reth": [
-        "Spice Sprouts",
-        "Wheat",
-        "Cream of Tomato Soup",
-        "Cream of Mushroom Soup"
-    ],
-
-    "Sifuu": [
-        "Copper Ore",
-        "Copper Bar",
-        "Silver Ore",
-        "Silver Bar"
-    ],
-
-    "Subira": [
-        "Fur",
-        "Heat Root",
-        "Red-bellied Piranha",
-        "Firebreathing Dragonfly"
-    ],
-
-    "Tamala": [
-        "Emerald Carpet Moss",
-        "Garden Millipede",
-        "Garden Leafhopper",
-        "Fairy Mantis"
-    ],
-
-    "Tau": [
-        "Common Blue Butterfly",
-        "Duskwing Butterfly",
-        "Brighteye Butterfly",
-        "Rainbow-Tipped Butterfly"
-    ],
-
-    "Tish": [
-        "Sweet Leaf",
-        "Glass Bulb",
-        "Apple Pie",
-        "Green Pearl"
-    ],
-
-    "Zeki": [
-        "Silvery Minnow",
-        "Golden Salmon",
-        "Sashimi",
-        "Bouillabaisse"
-    ],
 
 
 
@@ -232,7 +84,7 @@ function generateString(character, array) {
         switch (i) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
-                if(fileRead) {
+                if (fileRead) {
                     template = template.replaceAll(/type1/g, typeJSON[array[i]] ?? "Unknown");
                 } else {
                     template = template.replaceAll(/type1/g, "Unknown");
@@ -243,7 +95,7 @@ function generateString(character, array) {
                 break;
             case 1:
                 template = template.replaceAll(/name2/g, array[i]);
-                if(fileRead) {
+                if (fileRead) {
                     template = template.replaceAll(/type2/g, typeJSON[array[i]] ?? "Unknown");
                 } else {
                     template = template.replaceAll(/type2/g, "Unknown");
@@ -254,7 +106,7 @@ function generateString(character, array) {
                 break;
             case 2:
                 template = template.replaceAll(/name3/g, array[i]);
-                if(fileRead) {
+                if (fileRead) {
                     template = template.replaceAll(/type3/g, typeJSON[array[i]] ?? "Unknown");
                 } else {
                     template = template.replaceAll(/type3/g, "Unknown");
@@ -265,7 +117,7 @@ function generateString(character, array) {
                 break;
             case 3:
                 template = template.replaceAll(/name4/g, array[i]);
-                if(fileRead) {
+                if (fileRead) {
                     template = template.replaceAll(/type4/g, typeJSON[array[i]] ?? "Unknown");
                 } else {
                     template = template.replaceAll(/type4/g, "Unknown");
