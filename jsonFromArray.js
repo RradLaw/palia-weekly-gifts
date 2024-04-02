@@ -10,32 +10,33 @@ let errorString = "";
 let data = {
     
 
-    "Ashura": ["Silver Salmon", "Kilima Catfish", "Flow-Infused Plank", "Celebration Cake"],
-    "Auni": ["Common Blue Butterfly", "Garden Mantis", "Blueberry", "Celebration Cake"],
-    "Badruu": ["Onion Seed", "QualityUp Fertilizer", "Apple Tree Seed", "Azure Stonehopper"],
-    "Caleri": ["Shell", "Glass Bulb", "Silk Thread", "Dari Cloves"],
-    "Chayne": ["Carrot Seed", "Creamy Carrot Soup", "Dragon's Beard Peat", "Cream of Mushroom Soup"],
-    "Delaila": ["Clay", "QualityUp Fertilizer", "Blueberry", "Gold Bar"],
-    "Einar": ["Worm", "Mirror Carp", "Glow Worm", "Ancient Fish"],
-    "Elouisa": ["Ship Fragments", "Bahari Bee", "Blobfish", "Giant Goldfish"],
-    "Eshe": ["Grilled Oyster", "Fish Stew", "Silver Bar", "Gold Ore"],
-    "Hassian": ["Fur", "Sernuk Hide", "Azure Chapaa Tail", "Fireworks Arrow"],
-    "Hekla": ["Sundrop Lily", "Largemouth Bass", "Black Sea Bass", "Celebration Cake"],
-    "Hodari": ["Sernuk Antlers", "Copper Bar", "Loaded Potato Soup", "Bahari Glowbug"],
-    "Jel": ["Coral", "Lunar Fairy Moth", "Silk Thread", "Midnight Paddlefish"],
-    "Jina": ["Coral", "Heat Root", "Brighteye Butterfly", "Dari Cloves"],
-    "Kenli": ["Chapaa Meat", "Fish Stew", "Steak Dinner", "Palian Onion Soup"],
-    "Kenyatta": ["Emerald Carpet Moss", "Acorn", "Bluebristle Muujin Mane", "?"],
-    "Nai'O": ["Wagon Wheel", "HarvestBoost Fertilizer", "Stalking Catfish", "Steak Dinner"],
-    "Najuma": ["Sweet Leaf", "Copper Bar", "Iron Bar", "Blueberry Pie"],
-    "Reth": ["Sernuk Meat", "Spicy Pepper", "Loaded Potato Soup", "Dari Cloves"],
-    "Sifuu": ["Sernuk Meat", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Dispel Arrow"],
-    "Subira": ["Trout Dinner", "Rainbow-Tipped Butterfly", "Spitfire Cicada", "?"],
-    "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Dragon's Beard Peat", "Leafstalker Mantis"],
-    "Tau": ["Sapwood Plank", "Striped Chapaa Tail", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers"],
-    "Tish": ["Sweet Leaf", "Heartwood Plank", "Pinecone", "Blueberry Pie"],
-    "Zeki": ["Silvery Minnow", "Silk", "Proudhorned Sernuk Antlers", "Bouillabaisse"]
-    
+        "Ashura": ["Silver Salmon", "Kilima Catfish", "Flow-Infused Plank", "Celebration Cake"],
+        "Auni": ["Common Blue Butterfly", "Garden Mantis", "Blueberry", "Celebration Cake"],
+        "Badruu": ["Onion Seed", "QualityUp Fertilizer", "Apple Tree Seed", "Azure Stonehopper"],
+        "Caleri": ["Shell", "Glass Bulb", "Silk Thread", "Dari Cloves"],
+        "Chayne": ["Carrot Seed", "Creamy Carrot Soup", "Dragon's Beard Peat", "Cream of Mushroom Soup"],
+        "Delaila": ["Clay", "QualityUp Fertilizer", "Blueberry", "Gold Bar"],
+        "Einar": ["Worm", "Mirror Carp", "Glow Worm", "Ancient Fish"],
+        "Elouisa": ["Ship Fragments", "Bahari Bee", "Blobfish", "Giant Goldfish"],
+        "Eshe": ["Grilled Oyster", "Fish Stew", "Silver Bar", "Gold Ore"],
+        "Hassian": ["Fur", "Sernuk Hide", "Azure Chapaa Tail", "Fireworks Arrow"],
+        "Hekla": ["Sundrop Lily", "Largemouth Bass", "Black Sea Bass", "Celebration Cake"],
+        "Hodari": ["Sernuk Antlers", "Copper Bar", "Loaded Potato Soup", "Bahari Glowbug"],
+        "Jel": ["Coral", "Lunar Fairy Moth", "Silk Thread", "Midnight Paddlefish"],
+        "Jina": ["Coral", "Heat Root", "Brighteye Butterfly", "Dari Cloves"],
+        "Kenli": ["Chapaa Meat", "Fish Stew", "Steak Dinner", "Palian Onion Soup"],
+        "Kenyatta": ["Emerald Carpet Moss", "Acorn", "Kimchi Fried Rice", "Bluebristle Muujin Mane"],
+        "Nai'O": ["Wagon Wheel", "HarvestBoost Fertilizer", "Stalking Catfish", "Steak Dinner"],
+        "Najuma": ["Sweet Leaf", "Copper Bar", "Iron Bar", "Blueberry Pie"],
+        "Reth": ["Sernuk Meat", "Spicy Pepper", "Loaded Potato Soup", "Dari Cloves"],
+        "Sifuu": ["Sernuk Meat", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Dispel Arrow"],
+        "Subira": ["Wild Green Onion", "Trout Dinner", "Rainbow-Tipped Butterfly", "Spitfire Cicada"],
+        "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Dragon's Beard Peat", "Leafstalker Mantis"],
+        "Tau": ["Sapwood Plank", "Striped Chapaa Tail", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers"],
+        "Tish": ["Sweet Leaf", "Heartwood Plank", "Pinecone", "Blueberry Pie"],
+        "Zeki": ["Silvery Minnow", "Silk", "Proudhorned Sernuk Antlers", "Bouillabaisse"]
+      
+      
        
     
 
