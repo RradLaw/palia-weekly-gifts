@@ -8,42 +8,32 @@ try {
 let errorString = "";
 
 let data = {
-    
-    "Ashura": ["Striped Dace", "Heartwood Plank", "Fish Stew", "Apple Pie"],
-    "Auni": ["Ship Fragments", "Garden Millipede", "Firebreathing Dragonfly", "Celebration Cake"],
-    "Badruu": ["Cotton Seed", "Rice Seed", "Apple Tree Seed", "Azure Stonehopper"],
-    "Caleri": ["Sweet Leaf", "Kilima Redfin", "Cream of Tomato Soup", "Bouillabaisse"],
-    "Chayne": ["Carrot", "Blueberry Bush Seed", "Apple", "Palian Onion Soup"],
-    "Delaila": ["Bahari Crab", "Orange Bluegill", "Iron Bar", "Gold Bar"],
-    "Einar": ["Gillyfin", "Mirror Carp", "Flow-Infused Plank", "Cactus Moray"],
-    "Elouisa": ["Common Bark Cicada", "Proudhorned Stag Beetle", "Indigo Lamprey", "Bluebristle Muujin Mane"],
-    "Eshe": ["Leather", "Fish Stew", "Silver Ore", "Jewelwing Dragonfly"],
-    "Hassian": ["Sernuk Antlers", "Sernuk Noodle Stew", "Azure Chapaa Tail", "Steak Dinner"],
-    "Hekla": ["Bahari Bass", "Acorn", "Pearl", "Celebration Cake"],
-    "Hodari": ["Copper Ore", "Sernuk Noodle Stew", "Blue Marlin", "Firebreathing Dragonfly"],
-    "Jel": ["Leather", "Silk", "Black Sea Bass", "Bluebristle Muujin Mane"],
-    "Jina": ["Coral", "Glass Pane", "Shimmerfin", "Rainbow-Tipped Butterfly"],
-    "Kenli": ["Spotted Chapaa Tail", "Ramen", "Petit Fives", "Celebration Cake"],
-    "Kenyatta": ["Leather", "Acorn", "Phoenixfire Relleno", "Bluebristle Muujin Mane"],
-    "Nai'O": ["Spice Sprouts", "WeedBlock Fertilizer", "Corn", "Steak Dinner"],
-    "Najuma": ["Wild Garlic", "Copper Bar", "Apple Jam", "Blueberry Pie"],
-    "Reth": ["Sweet Leaf", "Sernuk Noodle Stew", "Blueberry", "Palian Onion Soup"],
-    "Sifuu": ["Stone Brick", "Elder Sernuk Antlers", "Silver Ore", "Steak Dinner"],
-    "Subira": ["Sernuk Hide", "Radiant Sunfish", "Sashimi", "Enchanted Pupfish"],
-    "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Azure Stonehopper", "Leafstalker Mantis"],
-    "Tau": ["Sernuk Meat", "Garden Leafhopper", "Sernuk Noodle Stew", "Apple"],
-    "Tish": ["Crystal Lake Lotus", "Juniper Seed", "Pinecone", "Green Pearl"],
-    "Zeki": ["Coral", "Golden Salmon", "Fish Tacos", "Gold Bar"]
-    
-
-
-
-
-
-
-
-
-};
+    "Ashura": ["Rainbow Trout", "Kilima Catfish", "Crab Pot Pie (♥)", "Apple Pie"],
+    "Auni": ["Brushtail Dragonfly", "Cerulean Cicada", "Scintillating Centipede", "Celebration Cake"],
+    "Badruu": ["Onion Seed", "Wheat Seed", "Ramen", "Azure Stonehopper"],
+    "Caleri": ["Shell", "Pickled Carrots", "Silk Thread", "Chapaa Masala"],
+    "Chayne": ["Carrot", "Apple Jam", "Blueberries", "Green Pearl"],
+    "Delaila": ["Channel Catfish", "Orange Bluegill", "Apple Tree Seed", "Giant Goldfish"],
+    "Einar": ["Silver Salmon", "Ribbontail Ray", "Fathead Minnow", "Enchanted Pupfish"],
+    "Elouisa": ["Unopened Oyster", "Proudhorned Stag Beetle", "Scarlet Koi", "Green Pearl"],
+    "Eshe": ["Fur", "Juniper Seed", "Silver Ore", "Akwinduu Chapaa"],
+    "Hassian": ["Fur", "Sernuk Noodle Stew", "Iron Ore", "Shimmerfin"],
+    "Hekla": ["Bahari Bass", "Fried Catfish Dinner", "Cream of Mushroom Soup", "Enchanted Pupfish"],
+    "Hodari": ["Spotted Chapaa Tail", "Elder Sernuk Antlers", "Hot Hounds", "Steak Dinner"],
+    "Jel": ["Coral", "Duskray", "Black Sea Bass", "Midnight Paddlefish"],
+    "Jina": ["Congee", "Brightshroom", "Shimmerfin", "Cream of Mushroom Soup"],
+    "Kenli": ["Grilled Fish", "Garden Ladybug", "Steak Dinner", "Chapaa Masala"],
+    "Kenyatta": ["Garden Mantis", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Bluebristle Muujin Mane"],
+    "Nai'O": ["Muujin Meat", "HydratePro Fertilizer", "Blueberry Jam", "Steak Dinner"],
+    "Najuma": ["Flint", "Copper Bar", "Honey Loach", "Blueberry Pie"],
+    "Reth": ["Carrot", "Sernuk Noodle Stew", "Blueberries", "Palian Onion Soup"],
+    "Sifuu": ["Chapaa Meat", "Standard Arrow", "Silver Ore", "Steak Dinner"],
+    "Subira": ["Fur", "Glow Worm", "Spitfire Cicada", null],
+    "Tamala": ["Kilima Night Moth", "Brightshroom", "Azure Stonehopper", "Leafstalker Mantis"],
+    "Tau": ["Spotted Chapaa Tail", "Silver Salmon", "Grilled Oyster", "Wagon Wheel"],
+    "Tish": ["Coral", "Juniper Seed", "Apple Pie", "Green Pearl"],
+    "Zeki": ["Grilled Oyster", "Silk", "Fish Tacos", "Bouillabaisse"]
+  };
 let outputStr = "{\n";
 for (const key in data) {
     outputStr += generateString(key, data[key]) + "\n";
@@ -76,6 +66,12 @@ function generateString(character, array) {
     },`;
 
     for (let i = 0; i < array.length; i++) {
+        if(array[i] === "Blueberries") {
+            array[i] = "Blueberry";
+        }
+
+        array[i] = array[i]?.replaceAll(" (♥)","");
+
         switch (i) {
             case 0:
                 template = template.replaceAll(/name1/g, array[i]);
