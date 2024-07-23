@@ -9,31 +9,33 @@ let errorString = "";
 
 let data = {
     
-    "Ashura": ["Congee", "Samara", "Reth's Century Egg", "Chapaa Masala"],
-  "Auni": ["Common Bark Cicada", "Rice Cake Stir Fry", "Hairy Millipede", "Blueberry Pie"],
-  "Badruu": ["Tomato Plant Seed", "Wheat", "Apple Tree Seed", "Meaty Stir Fry"],
-  "Caleri": ["Coral", "Heat Root", "Blueberry Jam", "Bouillabaisse"],
-  "Chayne": ["Knapweed", "Wheat", "Dragon's Beard Peat", "Dari Cloves"],
-  "Delaila": ["Muujin Meat", "WeedBlock Fertilizer", "Apple", "Gold Bar"],
-  "Einar": ["Mudminnow", "Mirror Carp", "Shimmerfin", "Radiant Sunfish"],
-  "Elouisa": ["Spotted Stinkbug", "Cantankerous Koi", "Energised Piranha", "Fairy Mantis"],
-  "Eshe": ["Fur", "Silk", "Apple Jam", "Bouillabaisse"],
-  "Hassian": ["Mountain Morel", "Elder Sernuk Antlers", "Iron Bar", "Slowdown Arrow"],
-  "Hekla": ["Briar Daisy", "Painted Perch", "Chub", "Celebration Cake"],
-  "Hodari": ["Sernuk Antlers", "Striped Chapaa Tail", "Stonefish", "Spitfire Cicada"],
-  "Jel": ["Fur", "Freshwater Eel", "Azure Chapaa Tail", "Bluebristle Muujin Mane"],
-  "Jina": ["Coral", "Heat Root", "Mutated Angler", "Cream of Mushroom Soup"],
-  "Kenli": ["Wagon Wheel", "Hearty Vegetable Soup", "Loaded Potato Soup", "Iron Bar"],
-  "Kenyatta": ["Briar Daisy", "Acorn", "Firebreathing Dragonfly", "Fairy Mantis"],
-  "Nai'O": ["Spice Sprouts", "Carrot", "Apple Tree Seed", "Steak Dinner"],
-  "Najuma": ["Tomato", "Copper Bar", "Blueberry", "Blueberry Pie"],
-  "Reth": ["Tomato", "Hearty Vegetable Soup", "Blueberry", "Dari Cloves"],
-  "Sifuu": ["Sardine", "Elder Sernuk Antlers", "Cream of Tomato Soup", "Slowdown Arrow"],
-  "Subira": ["Congee", "Silver Bar", "Mutated Angler", "Spicy Rice Cakes"],
-  "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Hairy Millipede", "Leafstalker Mantis"],
-  "Tau": ["Calico Koi", "Grilled Fish", "Azure Chapaa Tail", "Grilled Meat"],
-  "Tish": ["Clay", "Samara", "Pinecone", "Blueberry Pie"],
-  "Zeki": ["Silver Salmon", "Fish Stew", "Platinum Chad", "Dari Cloves"]
+"Ashura": ["Silver Salmon", "Heartwood Plank", "Flow-Infused Plank", "Chapaa Masala"],
+  "Auni": ["Common Field Cricket", "Garden Millipede", "Stripeshell Snail", "Blueberry Pie"],
+  "Badruu": ["Cotton Seed", "Orange Bluegill", "Ramen", "Meaty Stir Fry"],
+  "Caleri": ["Sweet Leaf", "Pickled Carrots", "Cream of Tomato Soup", "Hypnotic Moray"],
+  "Chayne": ["Potato", "Samara", "Pearl", "Cream of Mushroom Soup"],
+  "Delaila": ["Cantankerous Koi", "WeedBlock Fertilizer", "Golden Glory Bee", "Giant Goldfish"],
+  "Einar": ["Striped Dace", "Ribbontail Ray", "Mottled Gobi", "Long Nosed Unicorn Fish"],
+  "Elouisa": ["Dawnray", "Cerulean Cicada", "Indigo Lamprey", "Midnight Paddlefish"],
+  "Eshe": ["Grilled Oyster", "Samara", "Apple Jam", "Palian Onion Soup"],
+  "Hassian": ["Sernuk Antlers", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Slowdown Arrow"],
+  "Hekla": ["Crystal Lake Lotus", "Bahari Bream", "Trout Dinner", "Celebration Cake"],
+  "Hodari": ["Grilled Meat", "Copper Bar", "Iron Bar", "Bahari Glowbug"],
+  "Jel": ["Leather", "Lunar Fairy Moth", "Azure Chapaa Tail", "Midnight Paddlefish"],
+  "Jina": ["Congee", "Cotton", "Mutated Angler", "Celebration Cake"],
+  "Kenli": ["Chapaa Meat", "Creamy Carrot Soup", "Petit Fives", "Palian Onion Soup"],
+  "Kenyatta": ["Barracuda", "Elder Sernuk Antlers", "Kimchi Fried Rice", "Bluebristle Muujin Mane"],
+  "Nai'O": ["Muujin Meat", "Wheat Seed", "Iron Bar", "Steak Dinner"],
+  "Najuma": ["Sweet Leaf", "Copper Bar", "Flow-Infused Plank", "Blueberry Pie"],
+  "Reth": ["Chapaa Meat", "Hearty Vegetable Soup", "Apple", "Dari Cloves"],
+  "Sifuu": ["Copper Ore", "Copper Bar", "Cream of Tomato Soup", "Gold Bar"],
+  "Subira": ["Wild Green Onion", "Grilled Oyster", "Pan Fried Dumplings", "Enchanted Pupfish"],
+  "Tamala": ["Kilima Night Moth", "Heat Root", "Hairy Millipede", "Leafstalker Mantis"],
+  "Tau": ["Chapaa Meat", "Sernuk Antlers", "Prism Trout", "Grilled Meat"],
+  "Tish": ["Sundrop Lily", "Acorn", "Apple Pie", "Blueberry Pie"],
+  "Zeki": ["Coral", "Silk", "Flow-Infused Plank", "Gold Bar"]
+
+
 
 
 };
