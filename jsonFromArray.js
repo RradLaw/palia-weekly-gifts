@@ -9,33 +9,31 @@ let errorString = "";
 
 let data = {
     
-"Ashura": ["Silver Salmon", "Heartwood Plank", "Flow-Infused Plank", "Chapaa Masala"],
-  "Auni": ["Common Field Cricket", "Garden Millipede", "Stripeshell Snail", "Blueberry Pie"],
-  "Badruu": ["Cotton Seed", "Orange Bluegill", "Ramen", "Meaty Stir Fry"],
-  "Caleri": ["Sweet Leaf", "Pickled Carrots", "Cream of Tomato Soup", "Hypnotic Moray"],
-  "Chayne": ["Potato", "Samara", "Pearl", "Cream of Mushroom Soup"],
-  "Delaila": ["Cantankerous Koi", "WeedBlock Fertilizer", "Golden Glory Bee", "Giant Goldfish"],
-  "Einar": ["Striped Dace", "Ribbontail Ray", "Mottled Gobi", "Long Nosed Unicorn Fish"],
-  "Elouisa": ["Dawnray", "Cerulean Cicada", "Indigo Lamprey", "Midnight Paddlefish"],
-  "Eshe": ["Grilled Oyster", "Samara", "Apple Jam", "Palian Onion Soup"],
-  "Hassian": ["Sernuk Antlers", "Elder Sernuk Antlers", "Proudhorned Sernuk Antlers", "Slowdown Arrow"],
-  "Hekla": ["Crystal Lake Lotus", "Bahari Bream", "Trout Dinner", "Celebration Cake"],
-  "Hodari": ["Grilled Meat", "Copper Bar", "Iron Bar", "Bahari Glowbug"],
-  "Jel": ["Leather", "Lunar Fairy Moth", "Azure Chapaa Tail", "Midnight Paddlefish"],
-  "Jina": ["Congee", "Cotton", "Mutated Angler", "Celebration Cake"],
-  "Kenli": ["Chapaa Meat", "Creamy Carrot Soup", "Petit Fives", "Palian Onion Soup"],
-  "Kenyatta": ["Barracuda", "Elder Sernuk Antlers", "Kimchi Fried Rice", "Bluebristle Muujin Mane"],
-  "Nai'O": ["Muujin Meat", "Wheat Seed", "Iron Bar", "Steak Dinner"],
-  "Najuma": ["Sweet Leaf", "Copper Bar", "Flow-Infused Plank", "Blueberry Pie"],
-  "Reth": ["Chapaa Meat", "Hearty Vegetable Soup", "Apple", "Dari Cloves"],
-  "Sifuu": ["Copper Ore", "Copper Bar", "Cream of Tomato Soup", "Gold Bar"],
-  "Subira": ["Wild Green Onion", "Grilled Oyster", "Pan Fried Dumplings", "Enchanted Pupfish"],
-  "Tamala": ["Kilima Night Moth", "Heat Root", "Hairy Millipede", "Leafstalker Mantis"],
-  "Tau": ["Chapaa Meat", "Sernuk Antlers", "Prism Trout", "Grilled Meat"],
-  "Tish": ["Sundrop Lily", "Acorn", "Apple Pie", "Blueberry Pie"],
-  "Zeki": ["Coral", "Silk", "Flow-Infused Plank", "Gold Bar"]
-
-
+    "Ashura": ["Congee", "Kilima Catfish", "Fish Stew", "Sushi"],
+    "Auni": ["Ship Fragments", "Cerulean Cicada", "Apple", "Blueberry Pie"],
+    "Badruu": ["Onion Seed", "Hearty Vegetable Soup", "Loaded Potato Soup", "Meaty Stir Fry"],
+    "Caleri": ["Shell", "Heat Root", "Silk Thread", "Dari Cloves"],
+    "Chayne": ["Onion", "Glass Pane", "Heat Root", "Dari Cloves"],
+    "Delaila": ["Clay", "HarvestBoost Fertilizer", "Blueberry Bush Seed", "Gold Bar"],
+    "Einar": ["Worm", "Prism Trout", "Flow-Infused Plank", "Blue Spotted Ray"],
+    "Elouisa": ["Common Bark Cicada", "Proudhorned Stag Beetle", "Scarlet Koi", "Giant Goldfish"],
+    "Eshe": ["Leather", "Fish Stew", "Apple Jam", "Jewelwing Dragonfly"],
+    "Hassian": ["Fur", "Fabric", "Iron Bar", "Fireworks Arrow"],
+    "Hekla": ["Crystal Lake Lotus", "Largemouth Bass", "Black Sea Bass", "Enchanted Pupfish"],
+    "Hodari": ["Muujin Meat", "Heartwood", "Azure Chapaa Tail", "Spitfire Cicada"],
+    "Jel": ["Coral", "Bat Ray", "Gossamer Veil Moth", "Willow Lamprey"],
+    "Jina": ["Coral", "Cotton Seed", "Radiant Sunfish", "Apple Pie"],
+    "Kenli": ["Grilled Fish", "Ramen", "Steak Dinner", "Akwinduu Chapaa"],
+    "Kenyatta": ["Blueberry Jam", "Pickled Onions", "Spicy Stir Fry", "Bluebristle Muujin Mane"],
+    "Nai'O": ["Spice Sprouts", "Rice Seed", "Iron Bar", "Steak Dinner"],
+    "Najuma": ["Copper Ore", "Copper Bar", "Rice Cake Stir Fry", "Silver Bar"],
+    "Reth": ["Yellow Perch", "Hearty Vegetable Soup", "Apple Jam", "Dari Cloves"],
+    "Sifuu": ["Grilled Meat", "Pickled Carrots", "Proudhorned Sernuk Antlers", "Gold Bar"],
+    "Subira": ["Napa Cabbage", "Rice", "Red-bellied Piranha", "Spitfire Cicada"],
+    "Tamala": ["Common Field Cricket", "Garden Millipede", "Hairy Millipede", "Void Ray"],
+    "Tau": ["Sernuk Meat", "Steamed Fish", "Azure Stonehopper", "Shimmerfin"],
+    "Tish": ["Coral", "Acorn", "Pinecone", "Blueberry Pie"],
+    "Zeki": ["Grilled Oyster", "Fish Stew", "Flow-Infused Plank", "Bouillabaisse"]
 
 
 };
