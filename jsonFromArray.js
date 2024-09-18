@@ -9,32 +9,34 @@ let errorString = "";
 
 let data = {
 
-  "Ashura": ["Rainbow Trout", "Juniper Seed", "Pinecone", "Sashimi"],
-  "Auni": ["Spotted Stinkbug", "Garden Leafhopper", "Scintillating Centipede", "Blueberry Pie"],
-  "Badruu": ["Carrot", "WeedBlock Fertilizer", "Apple Tree Seed", "Meaty Stir Fry"],
-  "Caleri": ["Wild Ginger", "Heat Root", "Bahari Glowbug", "Chapaa Masala"],
-  "Chayne": ["Wild Ginger", "Glass Pane", "Apple", "Green Pearl"],
-  "Delaila": ["Calico Koi", "Spineshell Crab", "Scarlet Koi", "Gold Bar"],
-  "Einar": ["Eyeless Minnow", "Mirror Carp", "Fathead Minnow", "Ancient Fish"],
-  "Elouisa": ["Unopened Oyster", "Paddlefish", "Brighteye Butterfly", "Ancient Amber Beetle"],
-  "Eshe": ["Grilled Oyster", "Juniper Seed", "Black Sea Bass", "Akwinduu Chapaa"],
-  "Hassian": ["Mountain Morel", "Striped Chapaa Tail", "Iron Ore", "Steak Dinner"],
-  "Hekla": ["Grilled Fish", "Largemouth Bass", "Chub", "Celebration Cake"],
-  "Hodari": ["Paper Lantern Bug", "Heartwood", "Hot Hounds", "Steak Dinner"],
-  "Jel": ["Waterlogged Boot", "Sernuk Hide", "Vampire Crab", "Muujin Bahari"],
-  "Jina": ["Coral", "Glass Pane", "Brighteye Butterfly", "Apple Pie"],
-  "Kenli": ["Grilled Oyster", "Garden Ladybug", "Azure Chapaa Tail", "Gold Bar"],
-  "Kenyatta": ["Sardine", "Acorn", "Alligator Gar", "Meaty Stir Fry"],
-  "Nai'O": ["Spice Sprouts", "Heartwood Plank", "Bahari Pike", "Steak Dinner"],
-  "Najuma": ["Tomato", "Copper Bar", "Cream of Tomato Soup", "Blueberry Pie"],
-  "Reth": ["Sweet Leaf", "Heat Root", "Apple", "Cream of Mushroom Soup"],
-  "Sifuu": ["Chapaa Meat", "Oily Anchovy", "Iron Bar", "Swordfin Eel"],
-  "Subira": ["Leather", "Stuffed Cabbage Rolls", "Chili Oil Dumplings", "Spitfire Cicada"],
-  "Tamala": ["Emerald Carpet Moss", "Lunar Fairy Moth", "Pearl", "Fairy Mantis"],
-  "Tau": ["Fried Catfish Dinner", "Duskwing Butterfly", "Elder Sernuk Antlers", "Akwinduu Chapaa"],
-  "Tish": ["Shell", "Glass Bulb", "Pinecone", "Blueberry Pie"],
-  "Zeki": ["Grilled Oyster", "Fish Stew", "Silk Thread", "Dari Cloves"],
-
+    
+        "Ashura": ["Striped Dace", "Samara", "Fish Stew", "Sashimi"],
+        "Auni": ["Unopened Oyster", "Garden Snail", "Petit Fives", "Blueberry Pie"],
+        "Badruu": ["Tomato Plant Seed", "Rice", "Ramen", "Cream of Mushroom Soup"],
+        "Caleri": ["Coral", "Glass Bulb", "Blueberry Jam", "Hypnotic Moray"],
+        "Chayne": ["Wild Ginger", "Rice Seed", "Blueberry", "Palian Onion Soup"],
+        "Delaila": ["Rosy Bitterling", "Spineshell Crab", "Blueberry", "Giant Goldfish"],
+        "Einar": ["Silvery Minnow", "Ribbontail Ray", "Vampire Crab", "Cloudfish"],
+        "Elouisa": ["Ship Fragments", "Paddlefish", "Energised Piranha", "Flametongue Ray"],
+        "Eshe": ["Leather", "Bluefin Tuna", "Black Sea Bass", "Gold Ore"],
+        "Hassian": ["Sernuk Antlers", "Chapaa Asada Tacos", "Azure Chapaa Tail", "Steak Dinner"],
+        "Hekla": ["Grilled Fish", "Smallmouth Bass", "Pinecone", "Celebration Cake"],
+        "Hodari": ["Spotted Chapaa Tail", "Flow-Infused Wood", "Iron Ore", "Firebreathing Dragonfly"],
+        "Jel": ["Leather", "Silk", "Vampire Crab", "Bluebristle Muujin Mane"],
+        "Jina": ["Congee", "Brightshroom", "Brighteye Butterfly", "Void Ray"],
+        "Kenli": ["Spotted Chapaa Tail", "Striped Chapaa Tail", "Sashimi", "Celebration Cake"],
+        "Kenyatta": ["Blueberry Jam", "Inky Dragonfly", "Phoenixfire Relleno", "Fairy Mantis"],
+        "Nai'O": ["Muujin Meat", "Fish Stew", "Blueberry Bush Seed", "Steak Dinner"],
+        "Najuma": ["Sweet Leaf", "Copper Bar", "Silver Ore", "Blueberry Pie"],
+        "Reth": ["Carrot", "Heat Root", "Apple", "Palian Onion Soup"],
+        "Sifuu": ["Sernuk Antlers", "Copper Bar", "Iron Bar", "Swordfin Eel"],
+        "Subira": ["Fur", "Radiant Sunfish", "Hearty Vegetable Soup", "Spicy Rice Cakes"],
+        "Tamala": ["Kilima Night Moth", "Silk", "Radiant Sunfish", "Leafstalker Mantis"],
+        "Tau": ["Trout Dinner", "Cantankerous Koi", "Prism Trout", "Proudhorned Sernuk Antlers"],
+        "Tish": ["Clay", "Glass Bulb", "Celebration Cake", "Green Pearl"],
+        "Zeki": ["Silver Salmon", "Golden Salmon", "Fried Catfish Dinner", "Dari Cloves"]
+      
+      
 
 };
 let outputStr = "{\n";
