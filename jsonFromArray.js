@@ -10,31 +10,34 @@ let errorString = "";
 let data = {
 
     
-        "Ashura": ["Grilled Fish", "Prism Trout", "Fish Stew", "Apple Pie"],
-        "Auni": ["Common Bark Cicada", "Duskwing Butterfly", "Petit Fives", "Blueberry Pie"],
-        "Badruu": ["Rosy Bitterling", "Hearty Vegetable Soup", "Ramen", "Cream of Mushroom Soup"],
-        "Caleri": ["Knapweed", "Glass Bulb", "Crucian Carp", "Bouillabaisse"],
-        "Chayne": ["Onion Seed", "Hearty Vegetable Soup", "Heat Root", "Dari Cloves"],
-        "Delaila": ["Muujin Meat", "Garden Ladybug", "Vampire Crab", "Giant Goldfish"],
-        "Einar": ["Eyeless Minnow", "Fairy Carp", "Fathead Minnow", "Ancient Fish"],
-        "Elouisa": ["Unopened Oyster", "Bahari Bee", "Pearl", "Ancient Amber Beetle"],
-        "Eshe": ["Leather", "Juniper Seed", "Black Sea Bass", "Akwinduu Chapaa"],
-        "Hassian": ["Congee", "Standard Arrow", "Azure Chapaa Tail", "Giant Kilima Stingray"],
-        "Hekla": ["Sundrop Lily", "Bahari Bream", "Chub", "Celebration Cake"],
-        "Hodari": ["Paper Lantern Bug", "Copper Bar", "Iron Ore", "Firebreathing Dragonfly"],
-        "Jel": ["Barracuda", "Silk", "Scintillating Centipede", "Bluebristle Muujin Mane"],
-        "Jina": ["Congee", "Cotton Seed", "Mutated Angler", "Cream of Mushroom Soup"],
-        "Kenli": ["Grilled Fish", "Garden Ladybug", "Trout Dinner", "Meaty Stir Fry"],
-        "Kenyatta": ["Leather", "Inky Dragonfly", "Alligator Gar", "Meaty Stir Fry"],
-        "Nai'O": ["Muujin Meat", "WeedBlock Fertilizer", "Corn", "Steak Dinner"],
-        "Najuma": ["Wild Garlic", "Garden Snail", "Rice Cake Stir Fry", "Silver Bar"],
-        "Reth": ["Spice Sprouts", "Wheat", "Loaded Potato Soup", "Palian Onion Soup"],
-        "Sifuu": ["Sardine", "Elder Sernuk Antlers", "Silver Ore", "Slowdown Arrow"],
-        "Subira": ["Rainbow Trout", "Flow-Infused Plank", "Chili Oil Dumplings", "Enchanted Pupfish"],
-        "Tamala": ["Kilima Night Moth", "Garden Millipede", "Dragon's Beard Peat", "Ancient Amber Beetle"],
-        "Tau": ["Spotted Chapaa Tail", "Steamed Fish", "Brighteye Butterfly", "Grilled Meat"],
-        "Tish": ["Sundrop Lily", "Dawnray", "Celebration Cake", "Blueberry Pie"],
-        "Zeki": ["Coral", "Golden Salmon", "Silver Ore", "Gold Ore"]
+    
+        "Ashura": ["Silver Salmon", "Striped Sturgeon", "Stalking Catfish", "Apple Pie"],
+        "Auni": ["Common Field Cricket", "Garden Millipede", "Blueberry", "Blueberry Pie"],
+        "Badruu": ["Rainbow Trout", "Creamy Carrot Soup", "Loaded Potato Soup", "Cream of Mushroom Soup"],
+        "Caleri": ["Briar Daisy", "Silk", "Crucian Carp", "Hypnotic Moray"],
+        "Chayne": ["Carrot Seed", "Wheat Seed", "Apple", "Cream of Mushroom Soup"],
+        "Delaila": ["Cantankerous Koi", "QualityUp Fertilizer", "Stalking Catfish", "Gold Bar"],
+        "Einar": ["Striped Dace", "Red-bellied Piranha", "Vampire Crab", "Radiant Sunfish"],
+        "Elouisa": ["Ship Fragments", "Inky Dragonfly", "Beluga", "Flametongue Ray"],
+        "Eshe": ["Fur", "Bluefin Tuna", "Sushi", "Gold Ore"],
+        "Hassian": ["Leather", "Sernuk Noodle Stew", "Iron Ore", "Giant Kilima Stingray"],
+        "Hekla": ["Briar Daisy", "Largemouth Bass", "Trout Dinner", "Enchanted Pupfish"],
+        "Hodari": ["Copper Ore", "Heartwood", "Proudhorned Sernuk Antlers", "Steak Dinner"],
+        "Jel": ["Eyeless Minnow", "Duskray", "Petit Fives", "Midnight Paddlefish"],
+        "Jina": ["Coral", "Glass Pane", "Radiant Sunfish", "Celebration Cake"],
+        "Kenli": ["Grilled Oyster", "Striped Chapaa Tail", "Princess Ladybug", "Palian Onion Soup"],
+        "Kenyatta": ["Briar Daisy", "Pickled Onions", "Chili Oil Dumplings", "Fairy Mantis"],
+        "Nai'O": ["Spice Sprouts", "QualityUp Fertilizer", "Blueberry Jam", "Steak Dinner"],
+        "Najuma": ["Flint", "Garden Snail", "Apple Jam", "Blueberry Pie"],
+        "Reth": ["Wild Garlic", "Rice", "Loaded Potato Soup", "Dari Cloves"],
+        "Sifuu": ["Copper Ore", "Copper Bar", "Silver Ore", "Slowdown Arrow"],
+        "Subira": ["Grilled Fish", "Radiant Sunfish", "Hearty Vegetable Soup", "Spitfire Cicada"],
+        "Tamala": ["Common Field Cricket", "Lunar Fairy Moth", "Azure Stonehopper", "Ancient Amber Beetle"],
+        "Tau": ["Sapwood Plank", "Steak Dinner", "Chapaa Masala", "Shimmerfin"],
+        "Tish": ["Shell", "Heartwood Plank", "Pinecone", "Blueberry Pie"],
+        "Zeki": ["Grilled Oyster", "Silk", "Proudhorned Sernuk Antlers", "Poke Bowl"]
+      
+      
       
       
 
