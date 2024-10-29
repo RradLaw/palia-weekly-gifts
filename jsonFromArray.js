@@ -11,31 +11,34 @@ let data = {
 
     
     
-        "Ashura": ["Silver Salmon", "Striped Sturgeon", "Stalking Catfish", "Apple Pie"],
-        "Auni": ["Common Field Cricket", "Garden Millipede", "Blueberry", "Blueberry Pie"],
-        "Badruu": ["Rainbow Trout", "Creamy Carrot Soup", "Loaded Potato Soup", "Cream of Mushroom Soup"],
-        "Caleri": ["Briar Daisy", "Silk", "Crucian Carp", "Hypnotic Moray"],
-        "Chayne": ["Carrot Seed", "Wheat Seed", "Apple", "Cream of Mushroom Soup"],
-        "Delaila": ["Cantankerous Koi", "QualityUp Fertilizer", "Stalking Catfish", "Gold Bar"],
-        "Einar": ["Striped Dace", "Red-bellied Piranha", "Vampire Crab", "Radiant Sunfish"],
-        "Elouisa": ["Ship Fragments", "Inky Dragonfly", "Beluga", "Flametongue Ray"],
-        "Eshe": ["Fur", "Bluefin Tuna", "Sushi", "Gold Ore"],
-        "Hassian": ["Leather", "Sernuk Noodle Stew", "Iron Ore", "Giant Kilima Stingray"],
-        "Hekla": ["Briar Daisy", "Largemouth Bass", "Trout Dinner", "Enchanted Pupfish"],
-        "Hodari": ["Copper Ore", "Heartwood", "Proudhorned Sernuk Antlers", "Steak Dinner"],
-        "Jel": ["Eyeless Minnow", "Duskray", "Petit Fives", "Midnight Paddlefish"],
-        "Jina": ["Coral", "Glass Pane", "Radiant Sunfish", "Celebration Cake"],
-        "Kenli": ["Grilled Oyster", "Striped Chapaa Tail", "Princess Ladybug", "Palian Onion Soup"],
-        "Kenyatta": ["Briar Daisy", "Pickled Onions", "Chili Oil Dumplings", "Fairy Mantis"],
-        "Nai'O": ["Spice Sprouts", "QualityUp Fertilizer", "Blueberry Jam", "Steak Dinner"],
-        "Najuma": ["Flint", "Garden Snail", "Apple Jam", "Blueberry Pie"],
-        "Reth": ["Wild Garlic", "Rice", "Loaded Potato Soup", "Dari Cloves"],
-        "Sifuu": ["Copper Ore", "Copper Bar", "Silver Ore", "Slowdown Arrow"],
-        "Subira": ["Grilled Fish", "Radiant Sunfish", "Hearty Vegetable Soup", "Spitfire Cicada"],
-        "Tamala": ["Common Field Cricket", "Lunar Fairy Moth", "Azure Stonehopper", "Ancient Amber Beetle"],
-        "Tau": ["Sapwood Plank", "Steak Dinner", "Chapaa Masala", "Shimmerfin"],
-        "Tish": ["Shell", "Heartwood Plank", "Pinecone", "Blueberry Pie"],
-        "Zeki": ["Grilled Oyster", "Silk", "Proudhorned Sernuk Antlers", "Poke Bowl"]
+    
+        "Ashura": ["Congee", "Stickleback", "Fried Catfish Dinner", "Blueberry Pie"],
+        "Auni": ["Waterlogged Boot", "Cerulean Cicada", "Hairy Millipede", "Blueberry Pie"],
+        "Badruu": ["Potato", "Rice Seed", "Blueberry Bush Seed", "Cream of Mushroom Soup"],
+        "Caleri": ["Congee", "Glass Bulb", "Oysters Akwinduu", "Dari Cloves"],
+        "Chayne": ["Knapweed", "Blueberry Bush Seed", "Blueberry", "Dari Cloves"],
+        "Delaila": ["Clay", "QualityUp Fertilizer", "Blueberry", "Giant Goldfish"],
+        "Einar": ["Gillyfin", "Garden Snail", "Shimmerfin", "Stormray"],
+        "Elouisa": ["Oyster Meat", "Inky Dragonfly", "Blobfish", "Bluebristle Muujin Mane"],
+        "Eshe": ["Grilled Oyster", "Silk", "Sushi", "Muujin Bahari"],
+        "Hassian": ["Plant Fiber", "Sernuk Noodle Stew", "Azure Chapaa Tail", "Giant Kilima Stingray"],
+        "Hekla": ["Briar Daisy", "Smallmouth Bass", "Black Sea Bass", "Green Pearl"],
+        "Hodari": ["Leather", "Flow-Infused Wood", "Blue Marlin", "Firebreathing Dragonfly"],
+        "Jel": ["Umbran Carp", "Albino Eel", "Petit Fives", "Willow Lamprey"],
+        "Jina": ["Congee", "Duskwing Butterfly", "Radiant Sunfish", "Apple Pie"],
+        "Kenli": ["Spotted Chapaa Tail", "Fish Stew", "Fried Catfish Dinner", "Bouillabaisse"],
+        "Kenyatta": ["Sardine", "Oily Anchovy", "Dragon's Beard Peat", "Bluebristle Muujin Mane"],
+        "Nai'O": ["Muujin Meat", "HarvestBoost Fertilizer", "Blueberry Jam", "Steak Dinner"],
+        "Najuma": ["Clay", "Garden Snail", "Blueberry", "Blueberry Pie"],
+        "Reth": ["Onion", "Rice", "Blueberry", "Dari Cloves"],
+        "Sifuu": ["Grilled Meat", "Pickled Carrots", "Silver Ore", "Gold Bar"],
+        "Subira": ["Grilled Meat", "Glow Worm", "Spicy Rice Cakes", "? (Report in Discord)"],
+        "Tamala": ["Knapweed", "Brightshroom", "Azure Stonehopper", "Fairy Mantis"],
+        "Tau": ["Muujin Meat", "Silver Salmon", "Golden Salmon", "Shimmerfin"],
+        "Tish": ["Sapwood Plank", "Heartwood Plank", "Celebration Cake", "Green Pearl"],
+        "Zeki": ["Silver Salmon", "Golden Salmon", "Proudhorned Sernuk Antlers", "Poke Bowl"]
+      
+      
       
       
       
