@@ -12,156 +12,156 @@ let data = {
     
     
     
-  "Ashura": [
-    "Silver Salmon",
-    "Samara",
-    "Fried Catfish Dinner",
-    "Sushi"
-  ],
-  "Auni": [
-    "Bristletail Dragonfly",
-    "Bahari Bee",
-    "Candied Kopaa Nuts",
-    "Apple Pie"
-  ],
-  "Badruu": [
-    "Tomato Plant Seed",
-    "Wheat",
-    "Blueberry Bush Seed",
-    "Meaty Stir Fry"
-  ],
-  "Caleri": [
-    "Grilled Mushroom",
-    "Glass Bulb",
-    "Chapaa Onigiri",
-    "Chapaa Masala"
-  ],
-  "Chayne": [
-    "Potato",
-    "Juniper Seed",
-    "Blueberry",
-    "Palian Onion Soup"
-  ],
-  "Delaila": [
-    "Bahari Crab",
-    "QualityUp Fertilizer",
-    "Apple Tree Seed",
-    "Giant Goldfish"
-  ],
-  "Einar": [
-    "Mudminnow",
-    "Red-bellied Piranha",
-    "Mottled Gobi",
-    "Ancient Fish"
-  ],
-  "Elouisa": [
-    "Dawnray",
-    "Cytthroat Trout",
-    "Willow Lamprey",
-    "Majiri-of-War"
-  ],
-  "Eshe": [
-    "Grilled Oyster",
-    "Juniper Seed",
-    "Proudhorned Sernuk Antlers",
-    "Chapaa Masala"
-  ],
-  "Hassian": [
-    "Fur",
-    "Fabric",
-    "Staircase Mushroom",
-    "Dispel Arrow"
-  ],
-  "Hekla": [
-    "Crystal Lake Lotus",
-    "Fried Catfish Dinner",
-    "Black Sea Bass",
-    "Enchanted Pupfish"
-  ],
-  "Hodari": [
-    "Paper Lantern Bug",
-    "Elder Sernuk Antlers",
-    "Starry Bitterling",
-    "Emerald Ogopuu Scale"
-  ],
-  "Jel": [
-    "Coral",
-    "Sernuk Hide",
-    "Gossamer Veil Moth",
-    "Muujin Bahari"
-  ],
-  "Jina": [
-    "Coral",
-    "Glass Pane",
-    "Midnight Floatfish",
-    "Celebration Cake"
-  ],
-  "Kenli": [
-    "Wagon Wheel",
-    "Hearty Vegetable Soup",
-    "Pumpkin Curry and Rice",
-    "Bean Burger"
-  ],
-  "Kenyatta": [
-    "Barracuda",
-    "Pickled Onions",
-    "Spicy Stir Fry",
-    "Blood Beetle"
-  ],
-  "Nai'O": [
-    "Spice Sprouts",
-    "SpeedyGro Fertilizer",
-    "Stalking Catfish",
-    "Steak Dinner"
-  ],
-  "Najuma": [
-    "Wild Garlic",
-    "Garden Snail",
-    "Iron Ore",
-    "Silver Bar"
-  ],
-  "Reth": [
-    "Sweet Leaf",
-    "Heat Root",
-    "Kopaa Nuts",
-    "Palian Onion Soup"
-  ],
-  "Sifuu": [
-    "Muujin Meat",
-    "Pickled Carrots",
-    "Cream of Tomato Soup",
-    "Gold Bar"
-  ],
-  "Subira": [
-    "Rainbow Trout",
-    "Rice",
-    "Red-bellied Piranha",
-    "Rice Cake Stir Fry"
-  ],
-  "Tamala": [
-    "Kilima Night Moth",
-    "Garden Millipede",
-    "Azure Stonehopper",
-    "Ancient Amber Beetle"
-  ],
-  "Tau": [
-    "Muujin Meat",
-    "Duskwing Butterfly",
-    "Sunburst Batterfly",
-    "Will-o-wisp Rockhopper"
-  ],
-  "Tish": [
-    "Wagon Wheel",
-    "Heartwood Plank",
-    "Flow-Infused Plank",
-    "Angelfish"
-  ],
-  "Zeki": [
-    "Silvery Minnow",
-    "Silk",
-    "Zeki's Flyer",
-    "Bouillabaisse"
-  ]
+ "Ashura": [
+  "Congee",
+  "Heartwood Plank",
+  "Fish Stew",
+  "Celebration Cake"
+],
+"Auni": [
+  "Common Field Cricket",
+  "Proudhorned Stag Beetle",
+  "Apple",
+  "Apple Pie"
+],
+"Badruu": [
+  "Cotton Seed",
+  "Orange Bluegill",
+  "Loaded Potato Soup",
+  "Meaty Stir Fry"
+],
+"Caleri": [
+  "Knapweed",
+  "Silk",
+  "Blueberry Jam",
+  "Inyrevn Mermaid"
+],
+"Chayne": [
+  "Onion",
+  "Creamy Carrot Soup",
+  "Elder Clam Mushroom Meat",
+  "Dari Cloves"
+],
+"Delaila": [
+  "Channel Catfish",
+  "QualityUp Fertilizer",
+  "Mini Mullet",
+  "Rocker Pumpkin"
+],
+"Einar": [
+  "Silver Salmon",
+  "Garden Snail",
+  "Palian Betta",
+  "Fisherman's Brew"
+],
+"Elouisa": [
+  "Common Bark Cicada",
+  "Cytthroat Trout",
+  "Loaded Flowtato",
+  "Rainbow-Tipped Butterfly"
+],
+"Eshe": [
+  "Leather",
+  "Bluefin Tuna",
+  "Silk Thread",
+  "Black Pearl"
+],
+"Hassian": [
+  "Spotted Chapaa Tail",
+  "Fabric",
+  "Sabertoothed Anchovy",
+  "Steak Dinner"
+],
+"Hekla": [
+  "Unopened Oyster",
+  "Painted Perch",
+  "Ramen",
+  "Enchanted Pupfish"
+],
+"Hodari": [
+  "Spotted Chapaa Tail",
+  "Striped Chapaa Tail",
+  "Whitestone Slab",
+  "Spitfire Cicada"
+],
+"Jel": [
+  "Shell",
+  "Silk",
+  "Vampire Crab",
+  "Bean Burger"
+],
+"Jina": [
+  "Mountain Morel",
+  "Brightshroom",
+  "Bacon-Stuffed Mushrooms",
+  "Void Ray"
+],
+"Kenli": [
+  "Spotted Chapaa Tail",
+  "Creamy Carrot Soup",
+  "Sushi",
+  "Gold Bar"
+],
+"Kenyatta": [
+  "Blueberry Jam",
+  "Cytthroat Trout",
+  "Alligator Gar",
+  "Majiri-of-War"
+],
+"Nai'O": [
+  "Muujin Meat",
+  "Pickled Potatoes",
+  "Fried Catfish Dinner",
+  "Veggie Chili"
+],
+"Najuma": [
+  "Flint",
+  "Garden Snail",
+  "Flowtato Fries with Ketchup",
+  "Veggie Chili"
+],
+"Reth": [
+  "Carrot",
+  "Heat Root",
+  "Ogopuu Meat",
+  "Fruit Smoothie Bowl"
+],
+"Sifuu": [
+  "Chapaa Meat",
+  "Oily Anchovy",
+  "Proudhorned Sernuk Antlers",
+  "Gold Bar"
+],
+"Subira": [
+  "Grilled Mushroom",
+  "Fish Stew",
+  "Elderwood Orchid",
+  "Energised Piranha"
+],
+"Tamala": [
+  "Spice Sprouts",
+  "Lunar Fairy Moth",
+  "Hairy Millipede",
+  "Fairy Mantis"
+],
+"Tau": [
+  "Common Blue Butterfly",
+  "Steak Dinner",
+  "Chapaa Masala",
+  "Rainbow-Tipped Butterfly"
+],
+"Tish": [
+  "Crystal Lake Lotus",
+  "Heartwood Plank",
+  "Whitestone",
+  "Blueberry Pie"
+],
+"Zeki": [
+  "Grilled Fish",
+  "Golden Salmon",
+  "Crab Gumbo",
+  "Gold Ore"
+]
       
       
       
