@@ -1,502 +1,502 @@
 {
     "AshuraGift1": {
-        "name": "Sapwood Plank",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Rainbow Trout",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "AshuraGift2": {
-        "name": "Stickleback",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Acorn",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "AshuraGift3": {
-        "name": "Stalking Catfish",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Fish Stew",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "AshuraGift4": {
-        "name": "Fisherman's Brew",
+        "name": "Apple Pie",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "AuniGift1": {
-        "name": "Unopened Oyster",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Common Bark Cicada",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "AuniGift2": {
-        "name": "Duskwing Butterfly",
+        "name": "Garden Snail",
         "type": "Bug",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "AuniGift3": {
-        "name": "Hairy Millipede",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Petit Fives",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "AuniGift4": {
         "name": "Blood Beetle",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "BadruuGift1": {
-        "name": "Potato",
-        "type": "Crop",
-        "updated": 1752548201700
+        "name": "Wagon Wheel",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "BadruuGift2": {
-        "name": "HarvestBoost Fertilizer",
+        "name": "HydratePro Fertilizer",
         "type": "Crop",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "BadruuGift3": {
-        "name": "Pumpkin Pie",
+        "name": "Rockhopper Pumpkin Seed",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "BadruuGift4": {
         "name": "Meaty Stir Fry",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "CaleriGift1": {
-        "name": "Coral",
+        "name": "Sweet Leaf",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "CaleriGift2": {
-        "name": "Glass Bulb",
+        "name": "Silk",
         "type": "Material",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "CaleriGift3": {
-        "name": "Blushing Batterfly",
+        "name": "Floatfish Mushroom",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "CaleriGift4": {
-        "name": "Inyrevn Mermaid",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Dari Cloves",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "ChayneGift1": {
-        "name": "Carrot",
-        "type": "Crop",
-        "updated": 1752548201700
+        "name": "Wild Ginger",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "ChayneGift2": {
-        "name": "Samara",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Hearty Vegetable Soup",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "ChayneGift3": {
-        "name": "Honey",
+        "name": "Candied Kopaa Nuts",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "ChayneGift4": {
-        "name": "Veggie Chili",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Green Pearl",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "DelailaGift1": {
-        "name": "Channel Catfish",
+        "name": "Rainbow Trout",
         "type": "Fish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "DelailaGift2": {
         "name": "SpeedyGro Fertilizer",
         "type": "Crop",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "DelailaGift3": {
-        "name": "Blueberry Bush Seed",
-        "type": "Crop",
-        "updated": 1752548201700
+        "name": "Turn Pike",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "DelailaGift4": {
-        "name": "Giant Goldfish",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Rockhopper Pumpkin",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "EinarGift1": {
-        "name": "Silver Salmon",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Bahari Crab",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "EinarGift2": {
-        "name": "Spineshell Crab",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Fairy Carp",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "EinarGift3": {
-        "name": "Palian Betta",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Fathead Minnow",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "EinarGift4": {
-        "name": "Cloudfish",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Kilima Grayling",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "ElouisaGift1": {
-        "name": "Common Bark Cicada",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Unopened Oyster",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "ElouisaGift2": {
-        "name": "Proudhorned Stag Beetle",
+        "name": "Bahari Bee",
         "type": "Bug",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "ElouisaGift3": {
-        "name": "Ancient Wood",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Raspberry Beetle",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "ElouisaGift4": {
-        "name": "Rainbow-Tipped Butterfly",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Cloudfish",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "EsheGift1": {
-        "name": "Fur",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Grilled Oyster",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "EsheGift2": {
-        "name": "Bluefin Tuna",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Silk",
+        "type": "Material",
+        "updated": 1753150180278
     },
     "EsheGift3": {
         "name": "Silk Thread",
         "type": "Material",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "EsheGift4": {
-        "name": "Black Pearl",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Steak Dinner",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "HassianGift1": {
-        "name": "Grilled Meat",
-        "type": "Dish",
-        "updated": 1752548201700
+        "name": "Mountain Morel",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "HassianGift2": {
-        "name": "Striped Chapaa Tail",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Chapaa Asada Tacos",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "HassianGift3": {
-        "name": "Ogopuu Meat",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Proudhorned Sernuk Antlers",
+        "type": "Material",
+        "updated": 1753150180278
     },
     "HassianGift4": {
         "name": "Slowdown Arrow",
         "type": "Equipment",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "HeklaGift1": {
-        "name": "Bahari Bass",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Grilled Fish",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "HeklaGift2": {
-        "name": "Fried Catfish Dinner",
-        "type": "Dish",
-        "updated": 1752548201700
+        "name": "Painted Perch",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "HeklaGift3": {
-        "name": "Ramen",
-        "type": "Dish",
-        "updated": 1752548201700
+        "name": "Pinecone",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "HeklaGift4": {
-        "name": "Green Pearl",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Celebration Cake",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "HodariGift1": {
-        "name": "Copper Ore",
+        "name": "Leather",
         "type": "Material",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "HodariGift2": {
-        "name": "Striped Chapaa Tail",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Copper Bar",
+        "type": "Material",
+        "updated": 1753150180278
     },
     "HodariGift3": {
-        "name": "Azure Chapaa Tail",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Blue Marlin",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "HodariGift4": {
-        "name": "Steak Dinner",
-        "type": "Dish",
-        "updated": 1752548201700
+        "name": "Platinum Ore",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "JelGift1": {
-        "name": "Waterlogged Boot",
+        "name": "Fur",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "JelGift2": {
-        "name": "Duskray",
+        "name": "Albino Eel",
         "type": "Fish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "JelGift3": {
         "name": "Petit Fives",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "JelGift4": {
-        "name": "Eleroo Eel",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Willow Lamprey",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "JinaGift1": {
-        "name": "Coral",
+        "name": "Mountain Morel",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "JinaGift2": {
-        "name": "Brightshroom",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Duskwing Butterfly",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "JinaGift3": {
-        "name": "Dragon's Beard Peat",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Brighteye Butterfly",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "JinaGift4": {
-        "name": "Cream of Mushroom Soup",
+        "name": "Apple Pie",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "KenliGift1": {
-        "name": "Wagon Wheel",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Chapaa Meat",
+        "type": "Cooking Product",
+        "updated": 1753150180278
     },
     "KenliGift2": {
-        "name": "Creamy Carrot Soup",
+        "name": "Ramen",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "KenliGift3": {
-        "name": "Pan Fried Dumplings",
+        "name": "Fried Catfish Dinner",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "KenliGift4": {
-        "name": "Meaty Stir Fry",
+        "name": "Chapaa Masala",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "KenyattaGift1": {
-        "name": "Garden Mantis",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Barracuda",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "KenyattaGift2": {
-        "name": "Creamy Carrot Soup",
-        "type": "Dish",
-        "updated": 1752548201700
+        "name": "Inky Dragonfly",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "KenyattaGift3": {
-        "name": "Devilfish",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Spicy Rice Cakes",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "KenyattaGift4": {
-        "name": "Crimson Fangtooth",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Meaty Stir Fry",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "Nai'OGift1": {
-        "name": "Spice Sprouts",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Muujin Meat",
+        "type": "Cooking Product",
+        "updated": 1753150180278
     },
     "Nai'OGift2": {
-        "name": "Wheat Seed",
+        "name": "Rice Seed",
         "type": "Crop",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "Nai'OGift3": {
-        "name": "Rockhopper Pumpkin Seed",
+        "name": "Piksii Berries",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "Nai'OGift4": {
-        "name": "Veggie Chili",
+        "name": "Fruit Smoothie Bowl",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "NajumaGift1": {
-        "name": "Copper Ore",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Knapweed",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "NajumaGift2": {
         "name": "Garden Snail",
         "type": "Bug",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "NajumaGift3": {
-        "name": "Iron Bar",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Cream of Tomato Soup",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "NajumaGift4": {
         "name": "Blueberry Pie",
         "type": "Dish",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "RethGift1": {
-        "name": "Wild Garlic",
-        "type": "Gatherable",
-        "updated": 1752548201700
+        "name": "Onion",
+        "type": "Crop",
+        "updated": 1753150180278
     },
     "RethGift2": {
         "name": "Rice",
         "type": "Crop",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "RethGift3": {
-        "name": "Batterfly Beans",
+        "name": "Flowtato",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "RethGift4": {
         "name": "Rockhopper Pumpkin",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "SifuuGift1": {
-        "name": "Sardine",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Copper Ore",
+        "type": "Material",
+        "updated": 1753150180278
     },
     "SifuuGift2": {
-        "name": "Elder Sernuk Antlers",
+        "name": "Copper Bar",
         "type": "Material",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "SifuuGift3": {
         "name": "Turn Pike",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "SifuuGift4": {
-        "name": "Swordfin Eel",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Blood Beetle",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "SubiraGift1": {
-        "name": "Napa Cabbage",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Makeshift Arrow",
+        "type": "Equipment",
+        "updated": 1753150180278
     },
     "SubiraGift2": {
-        "name": "Stuffed Cabbage Rolls",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Radiant Sunfish",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "SubiraGift3": {
-        "name": "Ancient Wood",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Ancient Amber Beetle",
+        "type": "Bug",
+        "updated": 1753150180278
     },
     "SubiraGift4": {
-        "name": "Rice Cake Stir Fry",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Enchanted Pupfish",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "TamalaGift1": {
         "name": "Emerald Carpet Moss",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "TamalaGift2": {
-        "name": "Lunar Fairy Moth",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Silk",
+        "type": "Material",
+        "updated": 1753150180278
     },
     "TamalaGift3": {
         "name": "Hairy Millipede",
         "type": "Bug",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "TamalaGift4": {
-        "name": "Flametongue Ray",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Dari Cloves",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "TauGift1": {
-        "name": "Chapaa Meat",
+        "name": "Sernuk Meat",
         "type": "Cooking Product",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "TauGift2": {
-        "name": "Garden Leafhopper",
-        "type": "Bug",
-        "updated": 1752548201700
+        "name": "Cantankerous Koi",
+        "type": "Fish",
+        "updated": 1753150180278
     },
     "TauGift3": {
-        "name": "Elder Sernuk Antlers",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Oyster Meat",
+        "type": "Cooking Product",
+        "updated": 1753150180278
     },
     "TauGift4": {
         "name": "Wagon Wheel",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "TishGift1": {
-        "name": "Clay",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Crystal Lake Lotus",
+        "type": "Gatherable",
+        "updated": 1753150180278
     },
     "TishGift2": {
         "name": "Stuffed Cabbage Rolls",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "TishGift3": {
-        "name": "Flow-Infused Plank",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Whitestone",
+        "type": "Unknown",
+        "updated": 1753150180278
     },
     "TishGift4": {
-        "name": "Angelfish",
-        "type": "Unknown",
-        "updated": 1752548201700
+        "name": "Blueberry Pie",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "ZekiGift1": {
-        "name": "Silvery Minnow",
-        "type": "Fish",
-        "updated": 1752548201700
+        "name": "Grilled Fish",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "ZekiGift2": {
-        "name": "Silk",
-        "type": "Material",
-        "updated": 1752548201700
+        "name": "Fish Stew",
+        "type": "Dish",
+        "updated": 1753150180278
     },
     "ZekiGift3": {
-        "name": "Steamed Fish",
+        "name": "Sabertoothed Anchovy",
         "type": "Unknown",
-        "updated": 1752548201700
+        "updated": 1753150180278
     },
     "ZekiGift4": {
-        "name": "Green Pearl",
+        "name": "Dari Cloves",
         "type": "Gatherable",
-        "updated": 1752548201700
+        "updated": 1753150180278
     }
 }
