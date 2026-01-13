@@ -9,32 +9,58 @@ let errorString = "";
 
 let data = {
 
-  "Ashura": ["Rainbow Trout", "Stickleback", "Fish Stew", "Celebration Cake"],
-  "Auni": ["Common Blue Butterfly", "Rice Cake Stir Fry", "Firebreathing Dragonfly", "Will-o-wisp Rockhopper"],
-  "Badruu": ["Onion", "Orange Bluegill", "Batterfly Beans", "Rockhopper Pumpkin"],
-  "Caleri": ["Coral", "Heat Root", "Blushing Batterfly", "Inyrevn Mermaid"],
-  "Chayne": ["Tomato Plant Seed", "Creamy Carrot Soup", "Cream of Tomato Soup", "Cream of Mushroom Soup"],
-  "Delaila": ["Channel Catfish", "Clay", "Golden Glory Bee", "Giant Goldfish"],
-  "Einar": ["Silver Salmon", "Red-bellied Piranha", "Flow-Infused Plank", "Ancient Fish"],
-  "Elouisa": ["Oyster Meat", "Cerulean Cicada", "Elder Clam Mushroom", "Rainbow-Tipped Butterfly"],
-  "Eshe": ["Grilled Oyster", "Fish Stew", "Veil Piksii", "Emerald Ogopuu Scale"],
-  "Hassian": ["Grilled Meat", "Sernuk Hide", "Spicy Honey-Baked Muujin", "Slowdown Arrow"],
-  "Hekla": ["Grilled Mushroom", "Fried Catfish Dinner", "Ramen", "Celebration Cake"],
-  "Hodari": ["Fur", "Striped Chapaa Tail", "Whitestone", "Spitfire Cicada"],
-  "Jel": ["Waterlogged Boot", "Albino Eel", "Piksii Floatfish", "Willow Lamprey"],
-  "Jina": ["Shell", "Heat Root", "Umbraan Betta", "Eleroo Eel"],
-  "Kenli": ["Spotted Chapaa Tail", "Striped Chapaa Tail", "Elder Clam Mushroom Meat", "Chapaa Masala"],
-  "Kenyatta": ["Crystal Lake Lotus", "Elder Sernuk Antlers", "Spicy Rice Cakes", "Crimson Fangtooth"],
-  "Nai'O": ["Spice Sprouts", "Fish Stew", "Apple Tree Seed", "Steak Dinner"],
-  "Najuma": ["Tomato Plant Seed", "Garden Snail", "Rice Cake Stir Fry", "Silver Bar"],
-  "Reth": ["Potato", "Sernuk Noodle Stew", "Flowtato Fries with Ketchup", "Dari Cloves"],
-  "Sifuu": ["Muujin Meat", "Elder Sernuk Antlers", "Tinfin", "Platinum Ore"],
-  "Subira": ["Makeshift Arrow", "Fisherman's Brew", "Ancient Koi", "Elderflower"],
-  "Tamala": ["Kilima Night Moth", "Garden Millipede", "Azure Stonehopper", "Ancient Amber Beetle"],
-  "Tau": ["Trout Dinner", "Oily Anchovy", "Mossyfin", "Will-o-wisp Rockhopper"],
-  "The Gardener": ["Garden Millipede", "Elder Clam Mushroom", "Sunburst Batterfly", "Princess Ladybug"],
-  "Tish": ["Sapwood Plank", "Glass Bulb", "Silk Thread", "Angelfish"],
-  "Zeki": ["Grilled Oyster", "Fish Stew", "Trout Dinner", "Piksii Shmole Spore"]
+  "Ashura": ["Silver Salmon", "Striped Sturgeon", "Pumpkin Curry and Rice", "Blueberry Pie"],
+
+  "Auni": ["Ship Fragments", "Garden Leafhopper", "Spotted Mantis", "Celebration Cake"],
+
+  "Badruu": ["Rainbow Trout", "Rice", "Batterfly Beans", "Azure Stonehopper"],
+
+  "Caleri": ["Sweet Leaf", "Heat Root", "Tinfin", "Hypnotic Moray"],
+
+  "Chayne": ["Wild Garlic", "Blueberry Bush Seed", "Apple", "Veggie Chili"],
+
+  "Delaila": ["Cantankerous Koi", "QualityUp Fertilizer", "Mini Mullet", "Giant Goldfish"],
+
+  "Einar": ["Striped Dace", "Red-bellied Piranha", "Fathead Minnow", "Cactus Moray"],
+
+  "Elouisa": ["Duskray", "Cantankerous Koi", "Cave Piksii", "Green Pearl"],
+
+  "Eshe": ["Leather", "Silk", "Spicy Honey-Baked Muujin", "Steak Dinner"],
+
+  "Hassian": ["Plant Fiber", "Standard Arrow", "Proudhorned Sernuk Antlers", "Fireworks Arrow"],
+
+  "Hekla": ["Oyster Meat", "Bahari Bream", "Ramen", "Celebration Cake"],
+
+  "Hodari": ["Paper Lantern Bug", "Heartwood", "Iron Bar", "Platinum Bar"],
+
+  "Jel": ["Umbran Carp", "Bat Ray", "Silk Thread", "Midnight Paddlefish"],
+
+  "Jina": ["Shell", "Cotton Seed", "Brighteye Butterfly", "Cream of Mushroom Soup"],
+
+  "Kenli": ["Wagon Wheel", "Ramen", "Loaded Potato Soup", "Celebration Cake"],
+
+  "Kenyatta": ["Wild Garlic", "Elder Sernuk Antlers", "Firebreathing Dragonfly", "Majiri-of-War"],
+
+  "Nai'O": ["Spice Sprouts", "Kilima Catfish", "Fried Catfish Dinner", "Fruit Smoothie Bowl"],
+
+  "Najuma": ["Knapweed", "Garden Snail", "Iron Bar", "Silver Bar"],
+
+  "Reth": ["Spice Sprouts", "Ramen", "Pumpkin Stew", "Palian Onion Soup"],
+
+  "Sifuu": ["Sardine", "Elder Sernuk Antlers", "Ogopuu Scale", "Gold Ore"],
+
+  "Subira": ["Spice Sprouts", "Gold Ore", "Long Nosed Unicorn Fish", "Firebreathing Dragonfly"],
+
+  "Tamala": ["Kilima Night Moth", "Brightshroom", "Hairy Millipede", "Ancient Amber Beetle"],
+
+  "Tau": ["Common Field Cricket", "Heartwood Plank", "Brighteye Butterfly", "Akwinduu Chapaa"],
+
+  "The Gardener": ["Grumpy Granite Rockhopper", "Elder Clam Mushroom", "Ancient Wood Seed", "Princess Ladybug"],
+
+  "Tish": ["Briar Daisy", "Heartwood Plank", "Silk Thread", "Green Pearl"],
+
+  "Zeki": ["Coral", "Fish Stew", "Crab Gumbo", "Elder Shmole Spore"]
+
   
 };
 let outputStr = "{\n";
