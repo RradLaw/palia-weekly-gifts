@@ -9,58 +9,57 @@ let errorString = "";
 
 let data = {
 
-"Ashura": ["Sweet Leaf", "Juniper Seed", "Lake Shark", "Ancient Wood Seed"],
+ "Ashura": ["Sapwood Plank", "Samara", "Honey", "Elderwood Pie"],
 
-  "Auni": ["Waterlogged Boot", "Bahari Bee", "Blueberry", "Celebration Cake"],
+  "Auni": ["Unopened Oyster", "Proudhorned Stag Beetle", "Hairy Millipede", "Celebration Cake"],
 
-  "Badruu": ["Tomato", "Orange Bluegill", "Flowtato", "Azure Stonehopper"],
+  "Badruu": ["Carrot", "Hearty Vegetable Soup", "Batterfly Beans", "Azure Stonehopper"],
 
-  "Caleri": ["Spice Sprouts", "Glass Bulb", "Elderwood Orchid", "Dari Cloves"],
+  "Caleri": ["Sundrop Lily", "Silk", "Chapaa Onigiri", "Chapaa Masala"],
 
-  "Chayne": ["Tomato", "Creamy Carrot Soup", "Cream of Tomato Soup", "Cream of Mushroom Soup"],
+  "Chayne": ["Carrot", "Glass Pane", "Pearl", "Elderwood Lotus"],
 
-  "Delaila": ["Rosy Bitterling", "HydratePro Fertilizer", "Mini Mullet", "Rockhopper Pumpkin"],
+  "Delaila": ["Bahari Crab", "HydratePro Fertilizer", "Princess Ladybug", "Giant Goldfish"],
 
-  "Einar": ["Silvery Minnow", "Ribbontail Ray", "Glow Worm", "Cloudfish"],
+  "Einar": ["Mudminnow", "Prism Trout", "Ogopuu Scale", "Stormray"],
 
-  "Elouisa": ["Dawnray", "Proudhorned Stag Beetle", "Thundering Eel", "Flametongue Ray"],
+  "Elouisa": ["Spotted Stinkbug", "Bahari Bee", "Scarlet Koi", "Elder Shmole Spore"],
 
-  "Eshe": ["Grilled Oyster", "Juniper Seed", "Pumpkin Stew", "Chapaa Masala"],
+  "Eshe": ["Leather", "Bluefin Tuna", "Pumpkin Stew", "Elderflower"],
 
-  "Hassian": ["Sernuk Antlers", "Sernuk Noodle Stew", "Ogopuu Meat", "Dispel Arrow"],
+  "Hassian": ["Fur", "Sernuk Noodle Stew", "Proudhorned Sernuk Antlers", "Steak Dinner"],
 
-  "Hekla": ["Bahari Bass", "Acorn", "Trout Dinner", "Green Pearl"],
+  "Hekla": ["Grilled Fish", "Fried Catfish Dinner", "Black Sea Bass", "Celebration Cake"],
 
-  "Hodari": ["Sernuk Antlers", "Striped Chapaa Tail", "Whitestone Slab", "Firebreathing Dragonfly"],
+  "Hodari": ["Stone Brick", "Copper Bar", "Iron Ore", "Emerald Ogopuu Scale"],
 
-  "Jel": ["Leather", "Silk", "Thundering Eel", "Bean Burger"],
+  "Jel": ["Shell", "Duskray", "Thundering Eel", "Eleroo Eel"],
 
-  "Jina": ["Mountain Morel", "Heat Root", "Nightshadow Batterfly", "Dari Cloves"],
+  "Jina": ["Shell", "Cotton", "Umbraan Betta", "Elderwood Lotus"],
 
-  "Kenli": ["Wagon Wheel", "Fish Stew", "Petit Fives", "Gold Bar"],
+  "Kenli": ["Chapaa Meat", "Hearty Vegetable Soup", "Fried Catfish Dinner", "Celebration Cake"],
 
-  "Kenyatta": ["Sardine", "Acorn", "Alligator Gar", "Bluebristle Muujin Mane"],
+  "Kenyatta": ["Sernuk Antlers", "Elder Sernuk Antlers", "Banded Muujin Mane", "Blood Beetle"],
 
-  "Nai'O": ["Waterlogged Boot", "Heat Root", "Iron Bar", "Veggie Chili"],
+  "Nai'O": ["Spice Sprouts", "Carrot", "Corn", "Veggie Chili"],
 
-  "Najuma": ["Copper Ore", "Garden Snail", "Floatfish Mushroom", "Veggie Chili"],
+  "Najuma": ["Knapweed", "Garden Snail", "Apple", "Platinum Ore"],
 
-  "Reth": ["Tomato", "Ramen", "Raspberry Beetle", "Fruit Smoothie Bowl"],
+  "Reth": ["Chapaa Meat", "Heat Root", "Batterfly Beans", "Fruit Smoothie Bowl"],
 
-  "Sifuu": ["Stone Brick", "Oily Anchovy", "Iron Bar", "Swordfin Eel"],
+  "Sifuu": ["Grilled Meat", "Iron Ore", "Iron Bar", "Blood Beetle"],
 
-  "Subira": ["Grilled Fish", "Ancient Fish", "Standard Arrow", "Firebreathing Dragonfly"],
+  "Subira": ["Flow-Infused Wood", "Loaded Potato Soup", "Starry Bitterling", "Elderflower"],
 
-  "Tamala": ["Emerald Carpet Moss", "Garden Millipede", "Hairy Millipede", "Fairy Mantis"],
+  "Tamala": ["Kilima Night Moth", "Lunar Fairy Moth", "Hairy Millipede", "Leafstalker Mantis"],
 
-  "Tau": ["Calico Koi", "Oily Anchovy", "Starry Bitterling", "Emerald Ogopuu Scale"],
+  "Tau": ["Chapaa Meat", "Grilled Fish", "Sernuk Noodle Stew", "Will-o-wisp Rockhopper"],
 
-  "The Gardener": ["Worm", "Elder Clam Mushroom", "Ancient Wood Seed", "Ancient Amber Beetle"],
+  "The Gardener": ["Garden Millipede", "Elder Clam Mushroom", "Whitestone Slab", "Ancient Amber Beetle"],
 
-  "Tish": ["Briar Daisy", "Stuffed Cabbage Rolls", "Ancient Wood Plank", "Angelfish"],
+  "Tish": ["Sweet Leaf", "Stuffed Cabbage Rolls", "Silk Thread", "Blueberry Pie"],
 
-  "Zeki": ["Coral", "Golden Salmon", "Oysters Akwinduu", "Dari Cloves"]
-
+  "Zeki": ["Grilled Oyster", "Silk", "Steamed Fish", "Gold Bar"]
 
   
 };
